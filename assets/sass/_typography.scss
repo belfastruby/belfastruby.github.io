@@ -1,0 +1,244 @@
+/* Typography */
+
+@import "variables";
+
+body{
+  font-family: "Aleo-Light", Georgia, serif;
+  font-style: normal;
+  font-weight: 100;
+}
+
+h1{
+  color: $dark-grey;
+  font-family: "Aleo-Regular", Georgia, serif;
+  font-size: 100px;
+  font-weight: 100;
+  padding: 0 0 0.4em 0;
+}
+
+h2{
+  color: $ruby-red;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 32px;
+  padding: 1.5em 0 0.9em 0;
+  .underline{
+    border-bottom: 3px solid $ruby-red;
+    padding-bottom: 4px;
+  }
+  a{
+    color: $ruby-red;
+    text-decoration: none;
+    &:hover{
+      color: $blue-link;
+      .br-number{
+        border-color: $blue-link;
+      }
+    }
+    .br-number{
+      border-bottom: 3px solid $ruby-red;
+      padding-bottom: 4px;
+      display: inline-block;
+      margin-right: 10px;
+    }
+  }
+}
+
+
+h3{
+  color: $common-grey;
+  font-family: "Aleo-Regular", Georgia, serif;
+  font-size: 23px;
+  font-weight: normal;
+  line-height: 1.7em;
+}
+
+p{
+  color: $common-grey;
+  font-size: 19px;
+  line-height: 1.5em;
+  a{
+    color: $common-grey;
+    text-decoration: underline;
+    &:hover{
+      color: $blue-link;
+    }
+  }
+}
+
+/* Header */
+
+.about-top p{
+  color: $light-bg-grey;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.mobile_nav a.belfastruby{
+  color: $light-bg-grey;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 0.07em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* Main Navigation */
+
+nav ul li a{
+  color: $pale-grey;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.07em;
+  text-decoration: none;
+  text-transform: uppercase;
+  &:hover, &.active{
+   color: $common-grey;
+  }
+  &.active{
+    font-weight: 400;
+  }
+}
+
+/* Main Event Details */
+
+a.red-btn{
+  @include btn;
+  display: inline-block;
+}
+
+.when-where{
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  list-style: none;
+  li{
+    color: $dark-grey;
+  }
+  a{
+    color: $common-grey;
+    text-decoration: underline;
+    &:hover{
+      color: $blue-link;
+    }
+  }
+}
+
+.main-event-details{
+  color: $common-grey;
+  font-size: 18px;
+  line-height: 27px;
+  .intro{
+    float: left;
+    padding-right: 2%;
+    width: 48%;
+  }
+  .content-bulk{
+    float: right;
+    padding-left: 2%;
+    width: 48%;
+    p{
+      margin: 0 0 1.3em 0;
+    }
+  }
+}
+
+a.bar {
+  @include border-radius(3px);
+  background: $light-bg-grey;
+  color: $common-grey;
+  display: block;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.3em;
+  padding: 1.3% 5%;
+  text-align: center;
+  text-decoration: none;
+  width: 90%;
+  .get-in-touch{
+    display: inline-block;
+    font-weight: 400;
+    padding-left: 4px;
+    text-decoration: underline;
+  }
+  &:hover{
+    background: darken($light-bg-grey, 5%);
+    .get-in-touch{
+      color: $blue-link;
+    }
+  }
+  &:active{
+    background: darken($light-bg-grey, 11%);
+  }
+}
+
+
+/* Footer */
+
+footer .bio p{
+  color: $white;
+  font-size: 22px;
+  line-height: 39px;
+  margin: 0;
+  a{
+    color: $white;
+    text-decoration: none;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}
+
+footer .contact li{
+  font-size: 18px;
+  line-height: 40px;
+  list-style: none;
+  a{
+    color: $white;
+    text-decoration: none;
+  }
+  i{
+    padding-right: 4px;
+  }
+}
+
+/* Resources and Past Events Pages */
+
+ul.ruby-links{
+  margin: 0;
+  li{
+    line-height: 25px;
+    list-style: none;
+    padding-top: 2.3em;
+    &:first-child{
+      padding-top: 0;
+    }
+    &:last-child{
+      padding-bottom: 1em;
+    }
+    h3{
+      padding-top: 0.7em;
+    }
+    p{
+      max-width: 780px;
+      padding: 0.7em 0;
+      width: 80%;
+    }
+    a.read-more{
+      font-family: "Aleo-Light", Georgia, serif;
+      font-size: 19px;
+      text-decoration: underline;
+      color: $common-grey;
+      &:hover{
+        color: $blue-link;
+      }
+    }
+  }
+}
+
+
+
+

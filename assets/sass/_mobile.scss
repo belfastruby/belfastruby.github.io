@@ -1,0 +1,108 @@
+@import "variables";
+@import "mixins";
+
+
+/* Mobile header */
+
+header.mobile_nav{
+  background: $ruby-red;
+  width: 100%;
+  float: left;
+  margin-bottom: 3em;
+  position: fixed;
+  z-index: 1000;
+  a.belfastruby{
+    float: left;
+    padding: 12px 0 0 20px;
+    &:active{
+      color: $white;
+    }
+  }
+}
+
+.burger {
+  float: right;
+  height: 40px;
+  width: 40px;
+  background:url("../images/burger-menu.svg") no-repeat 0 10px;
+  background-size: 30px 17px;
+  text-indent: -999999px;
+  padding-right: 3px;
+}
+
+/* Slidey Mobile Nav */
+
+.sidr{
+  display:none;
+  position:absolute;
+  position:fixed;
+  top:0;
+  left:auto;
+  right:-260px;
+  height:100%;
+  z-index:999999;
+  width:230px;
+  overflow-x:none;
+  overflow-y:auto;
+  background:$sidebar;
+  color:$white;
+}
+
+.sidr_logo{
+  width: 100%;
+  img{
+    padding: 20px 0 20px 60px;
+    max-width: 110px;
+  }
+}
+
+.sidr_bio{
+  width: 100%;
+  border-bottom: 1px solid $sidebar-border;
+  p{
+    text-align: center;
+    color: $light-bg-grey;
+    font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    padding: 0.5em 1.2em 1.5em 1.2em;
+  }
+}
+
+#sidr {
+  padding: 0;
+  display: none;
+  ul {
+    padding: 0;
+    margin: 0;
+    li {
+      width: 100%;
+      color: $white;
+      text-align: center;
+      list-style: none;
+      a {
+        font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+        color: $light-bg-grey;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 500;
+        width: 100%;
+        padding: 1em 0;
+        background: $sidebar;
+        display: block;
+        border-bottom: 1px solid $sidebar-border;
+        &.active{
+          color: $white;
+          background: $sidebar-hover;
+        }
+        &:hover{
+          background: $sidebar-hover;
+        }
+      }
+    }
+  }
+}
+
+/* Other elements only visible in viewports <480px */
+
+
+

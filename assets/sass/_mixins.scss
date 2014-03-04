@@ -1,0 +1,28 @@
+/* Mixins */
+
+@import "variables";
+
+@mixin btn{
+  @include transition-duration(0.3s);
+  @include transition-property(color, background);
+  background: none;
+  border-radius: 3px;
+  border: solid 3px $ruby-red;
+  color: $ruby-red;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  min-width: 155px;
+  padding: 0.4em 0.6em 0.4em;
+  text-align: center;
+  text-decoration: none;
+  &:hover{
+    background: $ruby-red;
+    color: $white;
+  }
+  &:active{
+    margin-top: 7px;
+  }
+}

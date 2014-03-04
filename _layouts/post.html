@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<article class="meetup">
+  <section class="top-details">
+    <h1>{{page.title}}</h1>
+    <div class="small-info">
+      <ul class="when-where">
+        <li>{{page.when}}</li>
+        <li>{{page.location}} - <a href="{{page.directions}}">Get&nbsp;Directions</a></li>
+      </ul>
+      <a href="{{page.register_link}}" class="red-btn">Register for Event</a>
+    </div>
+  </section>
+  <section class="main-event-details clearfix">
+    <div class="intro">
+      <h3>{{page.intro}}</h3>
+    </div>
+    <div class="content-bulk">
+      {{content}}
+    </div>
+  </section>
+  <section class="sponsor-details clearfix">
+    <h2><span class="underline">Event</span> Sponsors</h2>
+    <ul class="sponsor-count-{{page.sponsors.size}}">
+      {% for sponsor in page.sponsors  %}
+      {% if sponsor.name == "rumble" %}
+      <li class="rumble">
+      {% else %}
+      <li>
+      {% endif %}
+      <a href="{{sponsor.link}}">
+        <img src="{{site.baseurl}}{{sponsor.image}}" />
+      </a>
+      </li>
+      {% endfor %}
+    </ul>
+    <a class="bar" href="mailto:hello@rumblelabs.com">This event is kindly sponsored by these fine folks. Interested in sponsoring a meetup? <span class="get-in-touch">Get&nbsp;in&nbsp;touch </span></a>
+  </section>
+</article>

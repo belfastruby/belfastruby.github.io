@@ -1,0 +1,203 @@
+/* Media Queries */
+
+@import "variables";
+@import "mixins";
+
+@media all and (max-width: 1180px) {
+
+  h1{
+    font-size:88px;
+  }
+}
+
+@media all and (max-width: 1040px) {
+
+.top-details{
+  width: 100%;
+}
+
+.main-event-details{
+  .content-bulk, .intro{
+    width: 100%;
+  }
+  h3{
+    padding-bottom: 1.5em;
+  }
+}
+
+}
+
+@media all and (max-width: 940px) {
+
+h1{
+  font-size: 85px;
+  padding-top: 0.2em;
+}
+
+ .bio, .contact{
+   width: 100%;
+  }
+
+.bio{
+  padding: 0 0 2em 0;
+  }
+
+}
+
+@media all and (max-width: 885px) {
+
+.sponsor-details ul {
+    padding: 1.7em 0 1em 0;
+    li{
+      width: 100%;
+      text-align: center;
+      padding: 2.1em 0;
+      border-top: solid 1px $light-bg-grey;
+      border-left: solid 1px $light-bg-grey;
+      border-right: solid 1px $light-bg-grey;
+      &:last-child{
+        border-bottom: solid 1px $light-bg-grey;
+        padding-bottom: 2.1em;
+      }
+      img{
+        width: 40%;
+        max-width:230px;
+      }
+    }
+  }
+
+}
+
+@media all and (max-width: 850px) {
+
+h1{
+  font-size: 75px;
+  padding: 0 0 0.5em 0;
+}
+
+.small-info{
+  width: 100%;
+  padding-bottom: 2em;
+a.red-btn{
+  display: block;
+  margin: 15px 0 0 0;
+  }
+}
+
+}
+
+@media all and (max-width: 768px){
+
+  body{
+    background: url(../images/ruby-shape.svg) no-repeat 190px 0;
+  }
+
+  header.normal_nav{
+   display: none;
+  }
+
+  header.mobile_nav{
+   display: block;
+  }
+
+  h1{
+    padding-top: 1.7em;
+  }
+
+  .sponsor-details{
+    padding: 45px 0;
+  }
+
+  ul.ruby-links li p{
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 660px) {
+
+
+.logo{
+  float: left;
+  padding-bottom: 15px;
+  img{ max-width: 120px;}
+}
+
+h1{
+  font-size: 60px;
+  padding: 1.5em 0 0.5em 0;
+}
+
+.small-info a.red-btn{
+  margin: 25px 0 0 0;
+ }
+
+.main-event-details{
+  padding: 70px 0 0 0;
+}
+
+.sponsor-details ul {
+    padding: 1.7em 0 1em 0;
+    li{
+      padding: 1.6em 0;
+      &:last-child{
+        border-bottom: solid 1px $light-bg-grey;
+        padding-bottom: 1.6em;
+      }
+      img{
+        width: 60%;
+      }
+    }
+  }
+}
+
+
+@media all and (max-width: 540px) {
+
+h2{
+  padding: 1.3em 0 0.3em 0;
+}
+
+h2 a .br-number{
+  display: block;
+  border: none;
+  }
+
+}
+
+
+@media all and (max-width: 480px) {
+
+  body{
+    background: none;
+  }
+
+  h1{
+   font-size: 38px;
+   padding: 2.2em 0 0.5em 0;
+  }
+
+  .main-event-details .intro h3, .main-event-details p{
+    font-size: 18px;
+    line-height: 29px;
+  }
+
+  .main-event-details{
+    padding: 70px 0 0 0;
+  }
+
+  a.bar{
+    font-size: 14px;
+    line-height: 1.2em;
+    padding: 1em;
+  }
+
+  footer{
+    padding: 2.5em 0;
+  }
+
+  footer .bio p, footer .contact li a{
+    font-size: 18px;
+    line-height: 29px;
+
+  }
+}

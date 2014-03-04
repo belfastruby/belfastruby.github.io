@@ -1,0 +1,1257 @@
+/* Main Stylesheet */
+/* For using font Aleo*/
+@font-face {
+  font-family: 'Aleo-Italic';
+  src: url("../fonts/aleo-italic-webfont.eot");
+  src: url("../fonts/aleo-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/aleo-italic-webfont.woff") format("woff"), url("../fonts/aleo-italic-webfont.ttf") format("truetype"), url("../fonts/aleo-italic-webfont.svg#aleoitalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aleo-Light';
+  src: url("../fonts/aleo-light-webfont.eot");
+  src: url("../fonts/aleo-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/aleo-light-webfont.woff") format("woff"), url("../fonts/aleo-light-webfont.ttf") format("truetype"), url("../fonts/aleo-light-webfont.svg#aleolight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aleo-Regular';
+  src: url("../fonts/aleo-regular-webfont.eot");
+  src: url("../fonts/aleo-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/aleo-regular-webfont.woff") format("woff"), url("../fonts/aleo-regular-webfont.ttf") format("truetype"), url("../fonts/aleo-regular-webfont.svg#aleoregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ============================
+   Variables
+   ============================ */
+/*! normalize.css v2.0.1 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/*
+ * Corrects `block` display not defined in IE 8/9.
+ */
+/* line 21, ../sass/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/*
+ * Corrects `inline-block` display not defined in IE 8/9.
+ */
+/* line 31, ../sass/_normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 40, ../sass/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE 8/9.
+ */
+/* line 49, ../sass/_normalize.scss */
+[hidden] {
+  display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/*
+ * 1. Sets default font family to sans-serif.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 63, ../sass/_normalize.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/*
+ * Removes default margin.
+ */
+/* line 73, ../sass/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+/* line 85, ../sass/_normalize.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+/* line 94, ../sass/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/*
+ * Addresses `h1` font sizes within `section` and `article` in Firefox 4+,
+ * Safari 5, and Chrome.
+ */
+/* line 107, ../sass/_normalize.scss */
+h1 {
+  font-size: 2em;
+}
+
+/*
+ * Addresses styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+/* line 115, ../sass/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/*
+ * Addresses style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 124, ../sass/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/*
+ * Addresses styling not present in Safari 5 and Chrome.
+ */
+/* line 132, ../sass/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/*
+ * Addresses styling not present in IE 8/9.
+ */
+/* line 140, ../sass/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/*
+ * Corrects font family set oddly in Safari 5 and Chrome.
+ */
+/* line 153, ../sass/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+/*
+ * Improves readability of pre-formatted text in all browsers.
+ */
+/* line 162, ../sass/_normalize.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/*
+ * Sets consistent quote types.
+ */
+/* line 172, ../sass/_normalize.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/*
+ * Addresses inconsistent and variable font size in all browsers.
+ */
+/* line 180, ../sass/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/*
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 189, ../sass/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 196, ../sass/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 200, ../sass/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/*
+ * Removes border when inside `a` element in IE 8/9.
+ */
+/* line 212, ../sass/_normalize.scss */
+img {
+  border: 0;
+}
+
+/*
+ * Corrects overflow displayed oddly in IE 9.
+ */
+/* line 220, ../sass/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/*
+ * Addresses margin not present in IE 8/9 and Safari 5.
+ */
+/* line 232, ../sass/_normalize.scss */
+figure {
+  margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/*
+ * Define consistent border, margin, and padding.
+ */
+/* line 244, ../sass/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/*
+ * 1. Corrects color not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 255, ../sass/_normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/*
+ * 1. Corrects font family not being inherited in all browsers.
+ * 2. Corrects font size not being inherited in all browsers.
+ * 3. Addresses margins set differently in Firefox 4+, Safari 5, and Chrome
+ */
+/* line 269, ../sass/_normalize.scss */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/*
+ * Addresses Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 281, ../sass/_normalize.scss */
+button,
+input {
+  line-height: normal;
+}
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Corrects inability to style clickable `input` types in iOS.
+ * 3. Improves usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 296, ../sass/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+/* line 306, ../sass/_normalize.scss */
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+
+/*
+ * 1. Addresses box sizing set to `content-box` in IE 8/9.
+ * 2. Removes excess padding in IE 8/9.
+ */
+/* line 316, ../sass/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/*
+ * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 327, ../sass/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/*
+ * Removes inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+/* line 340, ../sass/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+ * Removes inner padding and border in Firefox 4+.
+ */
+/* line 349, ../sass/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/*
+ * 1. Removes default vertical scrollbar in IE 8/9.
+ * 2. Improves readability and alignment in all browsers.
+ */
+/* line 359, ../sass/_normalize.scss */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/*
+ * Remove most spacing between table cells.
+ */
+/* line 372, ../sass/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ==========================================================================
+   Custom
+  ========================================================================== */
+/* line 381, ../sass/_normalize.scss */
+ul, li {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+/* line 386, ../sass/_normalize.scss */
+h1, h2, h3, h4, .number, p {
+  margin: 0;
+}
+
+/* line 390, ../sass/_normalize.scss */
+br {
+  margin: 1em;
+}
+
+/* Mixins */
+/* ============================
+   Variables
+   ============================ */
+/* Typography */
+/* ============================
+   Variables
+   ============================ */
+/* line 5, ../sass/_typography.scss */
+body {
+  font-family: "Aleo-Light", Georgia, serif;
+  font-style: normal;
+  font-weight: 100;
+}
+
+/* line 11, ../sass/_typography.scss */
+h1 {
+  color: #4c4c4c;
+  font-family: "Aleo-Regular", Georgia, serif;
+  font-size: 100px;
+  font-weight: 100;
+  padding: 0 0 0.4em 0;
+}
+
+/* line 19, ../sass/_typography.scss */
+h2 {
+  color: #891438;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 32px;
+  padding: 1.5em 0 0.9em 0;
+}
+/* line 26, ../sass/_typography.scss */
+h2 .underline {
+  border-bottom: 3px solid #891438;
+  padding-bottom: 4px;
+}
+/* line 30, ../sass/_typography.scss */
+h2 a {
+  color: #891438;
+  text-decoration: none;
+}
+/* line 33, ../sass/_typography.scss */
+h2 a:hover {
+  color: #407789;
+}
+/* line 35, ../sass/_typography.scss */
+h2 a:hover .br-number {
+  border-color: #407789;
+}
+/* line 39, ../sass/_typography.scss */
+h2 a .br-number {
+  border-bottom: 3px solid #891438;
+  padding-bottom: 4px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* line 49, ../sass/_typography.scss */
+h3 {
+  color: #494949;
+  font-family: "Aleo-Regular", Georgia, serif;
+  font-size: 23px;
+  font-weight: normal;
+  line-height: 1.7em;
+}
+
+/* line 57, ../sass/_typography.scss */
+p {
+  color: #494949;
+  font-size: 19px;
+  line-height: 1.5em;
+}
+/* line 61, ../sass/_typography.scss */
+p a {
+  color: #494949;
+  text-decoration: underline;
+}
+/* line 64, ../sass/_typography.scss */
+p a:hover {
+  color: #407789;
+}
+
+/* Header */
+/* line 72, ../sass/_typography.scss */
+.about-top p {
+  color: #efefef;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/* line 79, ../sass/_typography.scss */
+.mobile_nav a.belfastruby {
+  color: #efefef;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 0.07em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* Main Navigation */
+/* line 91, ../sass/_typography.scss */
+nav ul li a {
+  color: #afafaf;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.07em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/* line 98, ../sass/_typography.scss */
+nav ul li a:hover, nav ul li a.active {
+  color: #494949;
+}
+/* line 101, ../sass/_typography.scss */
+nav ul li a.active {
+  font-weight: 400;
+}
+
+/* Main Event Details */
+/* line 108, ../sass/_typography.scss */
+a.red-btn {
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background;
+  -moz-transition-property: color, background;
+  -o-transition-property: color, background;
+  transition-property: color, background;
+  background: none;
+  border-radius: 3px;
+  border: solid 3px #891438;
+  color: #891438;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  min-width: 155px;
+  padding: 0.4em 0.6em 0.4em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+/* line 21, ../sass/_mixins.scss */
+a.red-btn:hover {
+  background: #891438;
+  color: white;
+}
+/* line 25, ../sass/_mixins.scss */
+a.red-btn:active {
+  margin-top: 7px;
+}
+
+/* line 113, ../sass/_typography.scss */
+.when-where {
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  list-style: none;
+}
+/* line 118, ../sass/_typography.scss */
+.when-where li {
+  color: #4c4c4c;
+}
+/* line 121, ../sass/_typography.scss */
+.when-where a {
+  color: #494949;
+  text-decoration: underline;
+}
+/* line 124, ../sass/_typography.scss */
+.when-where a:hover {
+  color: #407789;
+}
+
+/* line 130, ../sass/_typography.scss */
+.main-event-details {
+  color: #494949;
+  font-size: 18px;
+  line-height: 27px;
+}
+/* line 134, ../sass/_typography.scss */
+.main-event-details .intro {
+  float: left;
+  padding-right: 2%;
+  width: 48%;
+}
+/* line 139, ../sass/_typography.scss */
+.main-event-details .content-bulk {
+  float: right;
+  padding-left: 2%;
+  width: 48%;
+}
+/* line 143, ../sass/_typography.scss */
+.main-event-details .content-bulk p {
+  margin: 0 0 1.3em 0;
+}
+
+/* line 149, ../sass/_typography.scss */
+a.bar {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background: #efefef;
+  color: #494949;
+  display: block;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.3em;
+  padding: 1.3% 5%;
+  text-align: center;
+  text-decoration: none;
+  width: 90%;
+}
+/* line 161, ../sass/_typography.scss */
+a.bar .get-in-touch {
+  display: inline-block;
+  font-weight: 400;
+  padding-left: 4px;
+  text-decoration: underline;
+}
+/* line 167, ../sass/_typography.scss */
+a.bar:hover {
+  background: #e2e2e2;
+}
+/* line 169, ../sass/_typography.scss */
+a.bar:hover .get-in-touch {
+  color: #407789;
+}
+/* line 173, ../sass/_typography.scss */
+a.bar:active {
+  background: lightgrey;
+}
+
+/* Footer */
+/* line 181, ../sass/_typography.scss */
+footer .bio p {
+  color: white;
+  font-size: 22px;
+  line-height: 39px;
+  margin: 0;
+}
+/* line 186, ../sass/_typography.scss */
+footer .bio p a {
+  color: white;
+  text-decoration: none;
+}
+/* line 189, ../sass/_typography.scss */
+footer .bio p a:hover {
+  text-decoration: underline;
+}
+
+/* line 195, ../sass/_typography.scss */
+footer .contact li {
+  font-size: 18px;
+  line-height: 40px;
+  list-style: none;
+}
+/* line 199, ../sass/_typography.scss */
+footer .contact li a {
+  color: white;
+  text-decoration: none;
+}
+/* line 203, ../sass/_typography.scss */
+footer .contact li i {
+  padding-right: 4px;
+}
+
+/* Resources and Past Events Pages */
+/* line 210, ../sass/_typography.scss */
+ul.ruby-links {
+  margin: 0;
+}
+/* line 212, ../sass/_typography.scss */
+ul.ruby-links li {
+  line-height: 25px;
+  list-style: none;
+  padding-top: 2.3em;
+}
+/* line 216, ../sass/_typography.scss */
+ul.ruby-links li:first-child {
+  padding-top: 0;
+}
+/* line 219, ../sass/_typography.scss */
+ul.ruby-links li:last-child {
+  padding-bottom: 1em;
+}
+/* line 222, ../sass/_typography.scss */
+ul.ruby-links li h3 {
+  padding-top: 0.7em;
+}
+/* line 225, ../sass/_typography.scss */
+ul.ruby-links li p {
+  max-width: 780px;
+  padding: 0.7em 0;
+  width: 80%;
+}
+/* line 230, ../sass/_typography.scss */
+ul.ruby-links li a.read-more {
+  font-family: "Aleo-Light", Georgia, serif;
+  font-size: 19px;
+  text-decoration: underline;
+  color: #494949;
+}
+/* line 235, ../sass/_typography.scss */
+ul.ruby-links li a.read-more:hover {
+  color: #407789;
+}
+
+/* Base Stylesheet for General Styles */
+/* Mixins */
+/* ============================
+   Variables
+   ============================ */
+/* ============================
+   Variables
+   ============================ */
+/* line 6, ../sass/_base.scss */
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+/* line 11, ../sass/_base.scss */
+.clearfix {
+  clear: both;
+}
+
+/* line 15, ../sass/_base.scss */
+body {
+  background: url(../images/ruby-shape.svg) no-repeat top right;
+  box-sizing: border-box;
+}
+
+/* line 20, ../sass/_base.scss */
+.about-top {
+  margin: 0 0 1.3em 0;
+  background: #891438;
+  padding: 0.3em 0 0.6em 0;
+}
+
+/* line 26, ../sass/_base.scss */
+header.normal_nav {
+  border-top: 5px solid #891438;
+  padding: 0 0 2em 0;
+}
+
+/* line 31, ../sass/_base.scss */
+header.mobile_nav {
+  display: none;
+}
+
+/* line 35, ../sass/_base.scss */
+nav ul {
+  float: left;
+}
+/* line 37, ../sass/_base.scss */
+nav ul li {
+  display: inline-block;
+  padding: 0 1.4em 0 0;
+}
+
+/* line 43, ../sass/_base.scss */
+.logo {
+  float: right;
+}
+/* line 45, ../sass/_base.scss */
+.logo img {
+  max-width: 150px;
+}
+
+/* line 50, ../sass/_base.scss */
+.top-details {
+  width: 80%;
+}
+
+/* line 54, ../sass/_base.scss */
+.small-info {
+  padding: 0;
+  margin: 0;
+  width: 80%;
+  position: relative;
+  z-index: 1;
+}
+
+/* line 62, ../sass/_base.scss */
+ul.when-where {
+  display: inline-block;
+  margin: 0 2em 0 0;
+}
+
+/* line 67, ../sass/_base.scss */
+.red-btn {
+  position: absolute;
+  margin: 5px;
+}
+
+/* line 72, ../sass/_base.scss */
+.main-event-details {
+  padding: 80px 0 0 0;
+}
+
+/* line 76, ../sass/_base.scss */
+.main-event-details-links {
+  padding: 20px 0 0 0;
+}
+
+/* line 81, ../sass/_base.scss */
+.sponsor-details {
+  padding: 25px 0 65px 0;
+}
+/* line 83, ../sass/_base.scss */
+.sponsor-details ul {
+  padding: 40px 0;
+}
+/* line 85, ../sass/_base.scss */
+.sponsor-details ul li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+}
+
+/* line 93, ../sass/_base.scss */
+ul.sponsor-count-1 li {
+  width: 100%;
+}
+
+/* line 97, ../sass/_base.scss */
+ul.sponsor-count-2 li {
+  width: 49%;
+}
+
+/* line 101, ../sass/_base.scss */
+ul.sponsor-count-3 li {
+  width: 33%;
+  min-width: 230px;
+}
+
+/* line 106, ../sass/_base.scss */
+ul.sponsor-count-4 li {
+  width: 25%;
+}
+
+/* line 110, ../sass/_base.scss */
+footer {
+  width: 100%;
+  float: left;
+  padding: 4.5em 0;
+  background: #891438;
+  color: white;
+}
+
+/* line 118, ../sass/_base.scss */
+.bio {
+  width: 55%;
+  padding-right: 10%;
+  float: left;
+}
+
+/* line 124, ../sass/_base.scss */
+.contact {
+  width: 30%;
+  float: right;
+}
+
+/* line 129, ../sass/_base.scss */
+.resources-page, .past-events-page {
+  padding: 0 0 7em 0;
+}
+
+/* IE fixes */
+/* line 135, ../sass/_base.scss */
+.ie8 body {
+  background: url(../images/ruby-shape.png) no-repeat top right;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ============================
+   Variables
+   ============================ */
+/* Mixins */
+/* ============================
+   Variables
+   ============================ */
+/* Mobile header */
+/* line 7, ../sass/_mobile.scss */
+header.mobile_nav {
+  background: #891438;
+  width: 100%;
+  float: left;
+  margin-bottom: 3em;
+  position: fixed;
+  z-index: 1000;
+}
+/* line 14, ../sass/_mobile.scss */
+header.mobile_nav a.belfastruby {
+  float: left;
+  padding: 12px 0 0 20px;
+}
+/* line 17, ../sass/_mobile.scss */
+header.mobile_nav a.belfastruby:active {
+  color: white;
+}
+
+/* line 23, ../sass/_mobile.scss */
+.burger {
+  float: right;
+  height: 40px;
+  width: 40px;
+  background: url("../images/burger-menu.svg") no-repeat 0 10px;
+  background-size: 30px 17px;
+  text-indent: -999999px;
+  padding-right: 3px;
+}
+
+/* Slidey Mobile Nav */
+/* line 35, ../sass/_mobile.scss */
+.sidr {
+  display: none;
+  position: absolute;
+  position: fixed;
+  top: 0;
+  left: auto;
+  right: -260px;
+  height: 100%;
+  z-index: 999999;
+  width: 230px;
+  overflow-x: none;
+  overflow-y: auto;
+  background: #2f2f2f;
+  color: white;
+}
+
+/* line 51, ../sass/_mobile.scss */
+.sidr_logo {
+  width: 100%;
+}
+/* line 53, ../sass/_mobile.scss */
+.sidr_logo img {
+  padding: 20px 0 20px 60px;
+  max-width: 110px;
+}
+
+/* line 59, ../sass/_mobile.scss */
+.sidr_bio {
+  width: 100%;
+  border-bottom: 1px solid #3c3c3c;
+}
+/* line 62, ../sass/_mobile.scss */
+.sidr_bio p {
+  text-align: center;
+  color: #efefef;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  padding: 0.5em 1.2em 1.5em 1.2em;
+}
+
+/* line 71, ../sass/_mobile.scss */
+#sidr {
+  padding: 0;
+  display: none;
+}
+/* line 74, ../sass/_mobile.scss */
+#sidr ul {
+  padding: 0;
+  margin: 0;
+}
+/* line 77, ../sass/_mobile.scss */
+#sidr ul li {
+  width: 100%;
+  color: white;
+  text-align: center;
+  list-style: none;
+}
+/* line 82, ../sass/_mobile.scss */
+#sidr ul li a {
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  color: #efefef;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  width: 100%;
+  padding: 1em 0;
+  background: #2f2f2f;
+  display: block;
+  border-bottom: 1px solid #3c3c3c;
+}
+/* line 93, ../sass/_mobile.scss */
+#sidr ul li a.active {
+  color: white;
+  background: #222222;
+}
+/* line 97, ../sass/_mobile.scss */
+#sidr ul li a:hover {
+  background: #222222;
+}
+
+/* Other elements only visible in viewports <480px */
+/* Media Queries */
+/* ============================
+   Variables
+   ============================ */
+/* Mixins */
+/* ============================
+   Variables
+   ============================ */
+@media all and (max-width: 1180px) {
+  /* line 8, ../sass/_mediaqueries.scss */
+  h1 {
+    font-size: 88px;
+  }
+}
+@media all and (max-width: 1040px) {
+  /* line 15, ../sass/_mediaqueries.scss */
+  .top-details {
+    width: 100%;
+  }
+
+  /* line 20, ../sass/_mediaqueries.scss */
+  .main-event-details .content-bulk, .main-event-details .intro {
+    width: 100%;
+  }
+  /* line 23, ../sass/_mediaqueries.scss */
+  .main-event-details h3 {
+    padding-bottom: 1.5em;
+  }
+}
+@media all and (max-width: 940px) {
+  /* line 32, ../sass/_mediaqueries.scss */
+  h1 {
+    font-size: 85px;
+    padding-top: 0.2em;
+  }
+
+  /* line 37, ../sass/_mediaqueries.scss */
+  .bio, .contact {
+    width: 100%;
+  }
+
+  /* line 41, ../sass/_mediaqueries.scss */
+  .bio {
+    padding: 0 0 2em 0;
+  }
+}
+@media all and (max-width: 885px) {
+  /* line 49, ../sass/_mediaqueries.scss */
+  .sponsor-details ul {
+    padding: 1.7em 0 1em 0;
+  }
+  /* line 51, ../sass/_mediaqueries.scss */
+  .sponsor-details ul li {
+    width: 100%;
+    text-align: center;
+    padding: 2.1em 0;
+    border-top: solid 1px #efefef;
+    border-left: solid 1px #efefef;
+    border-right: solid 1px #efefef;
+  }
+  /* line 58, ../sass/_mediaqueries.scss */
+  .sponsor-details ul li:last-child {
+    border-bottom: solid 1px #efefef;
+    padding-bottom: 2.1em;
+  }
+  /* line 62, ../sass/_mediaqueries.scss */
+  .sponsor-details ul li img {
+    width: 40%;
+    max-width: 230px;
+  }
+}
+@media all and (max-width: 850px) {
+  /* line 73, ../sass/_mediaqueries.scss */
+  h1 {
+    font-size: 75px;
+    padding: 0 0 0.5em 0;
+  }
+
+  /* line 78, ../sass/_mediaqueries.scss */
+  .small-info {
+    width: 100%;
+    padding-bottom: 2em;
+  }
+  /* line 81, ../sass/_mediaqueries.scss */
+  .small-info a.red-btn {
+    display: block;
+    margin: 15px 0 0 0;
+  }
+}
+@media all and (max-width: 768px) {
+  /* line 91, ../sass/_mediaqueries.scss */
+  body {
+    background: url(../images/ruby-shape.svg) no-repeat 190px 0;
+  }
+
+  /* line 95, ../sass/_mediaqueries.scss */
+  header.normal_nav {
+    display: none;
+  }
+
+  /* line 99, ../sass/_mediaqueries.scss */
+  header.mobile_nav {
+    display: block;
+  }
+
+  /* line 103, ../sass/_mediaqueries.scss */
+  h1 {
+    padding-top: 1.7em;
+  }
+
+  /* line 107, ../sass/_mediaqueries.scss */
+  .sponsor-details {
+    padding: 45px 0;
+  }
+
+  /* line 111, ../sass/_mediaqueries.scss */
+  ul.ruby-links li p {
+    width: 100%;
+  }
+}
+@media all and (max-width: 660px) {
+  /* line 119, ../sass/_mediaqueries.scss */
+  .logo {
+    float: left;
+    padding-bottom: 15px;
+  }
+  /* line 122, ../sass/_mediaqueries.scss */
+  .logo img {
+    max-width: 120px;
+  }
+
+  /* line 125, ../sass/_mediaqueries.scss */
+  h1 {
+    font-size: 60px;
+    padding: 1.5em 0 0.5em 0;
+  }
+
+  /* line 130, ../sass/_mediaqueries.scss */
+  .small-info a.red-btn {
+    margin: 25px 0 0 0;
+  }
+
+  /* line 134, ../sass/_mediaqueries.scss */
+  .main-event-details {
+    padding: 70px 0 0 0;
+  }
+
+  /* line 138, ../sass/_mediaqueries.scss */
+  .sponsor-details ul {
+    padding: 1.7em 0 1em 0;
+  }
+  /* line 140, ../sass/_mediaqueries.scss */
+  .sponsor-details ul li {
+    padding: 1.6em 0;
+  }
+  /* line 142, ../sass/_mediaqueries.scss */
+  .sponsor-details ul li:last-child {
+    border-bottom: solid 1px #efefef;
+    padding-bottom: 1.6em;
+  }
+  /* line 146, ../sass/_mediaqueries.scss */
+  .sponsor-details ul li img {
+    width: 60%;
+  }
+}
+@media all and (max-width: 540px) {
+  /* line 156, ../sass/_mediaqueries.scss */
+  h2 {
+    padding: 1.3em 0 0.3em 0;
+  }
+
+  /* line 160, ../sass/_mediaqueries.scss */
+  h2 a .br-number {
+    display: block;
+    border: none;
+  }
+}
+@media all and (max-width: 480px) {
+  /* line 170, ../sass/_mediaqueries.scss */
+  body {
+    background: none;
+  }
+
+  /* line 174, ../sass/_mediaqueries.scss */
+  h1 {
+    font-size: 38px;
+    padding: 2.2em 0 0.5em 0;
+  }
+
+  /* line 179, ../sass/_mediaqueries.scss */
+  .main-event-details .intro h3, .main-event-details p {
+    font-size: 18px;
+    line-height: 29px;
+  }
+
+  /* line 184, ../sass/_mediaqueries.scss */
+  .main-event-details {
+    padding: 70px 0 0 0;
+  }
+
+  /* line 188, ../sass/_mediaqueries.scss */
+  a.bar {
+    font-size: 14px;
+    line-height: 1.2em;
+    padding: 1em;
+  }
+
+  /* line 194, ../sass/_mediaqueries.scss */
+  footer {
+    padding: 2.5em 0;
+  }
+
+  /* line 198, ../sass/_mediaqueries.scss */
+  footer .bio p, footer .contact li a {
+    font-size: 18px;
+    line-height: 29px;
+  }
+}

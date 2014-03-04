@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<!--[if lt IE 9]>
+    <html class="ie8" lang="en"></html>
+<![endif]-->
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>{{ page.title }} || Belfast Ruby - Passionate about Ruby & Rails in Northern Ireland</title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="description" content="Belfast Ruby is a community of aspiring and experienced developers in Belfast, N.Ireland passionate about Ruby and Rails.">
+
+      <!-- syntax highlighting CSS and Font Awesome -->
+      <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/syntax.css">
+      <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+      <!-- Custom CSS -->
+      <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+
+      <!-- JQuery -->
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+      <script type="text/javascript" src="//use.typekit.net/tmx7bvo.js"></script>
+      <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+      <script src="{{ site.baseurl }}/assets/js/all.js"></script>
+      <script src="{{ site.baseurl }}/assets/js/sidr.js"></script>
+      <script>
+      $(document).ready(function() {
+        $('#burger').sidr({
+          side: 'right',
+          displace: true
+        });
+        $('#burger').click(function() {
+          $.sidr('open', 'sidr');
+          $(this).addClass('open-burger');
+        });
+        $('.open-burger').on('click', function() {
+          $.sidr('close', 'sidr');
+          $(this).removeClass('open-burger');
+        });
+      });
+      </script>
+      <!--[if lt IE 9]>
+      <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+      <script src="assets/js/html5shiv.js"></script>
+      <![endif]-->
+
+      <!-- OG -->
+      <meta content="Belfast Ruby" property="og:title">
+      <meta content="website" property="og:type">
+      <meta content="http://belfastruby-assets.s3.amazonaws.com/belfast-ruby-logo.png" property="og:image">
+      <meta content="http://belfastruby.com" property="og:url">
+      <meta content="Belfast Ruby is a community of aspiring and experienced developers in Belfast, N.Ireland passionate about Ruby and Rails" property="og:description">
+
+      <!-- Twitter -->
+      <meta name="twitter:card" content="summary">
+      <meta name="twitter:url" content="http://belfastruby.com">
+      <meta name="twitter:title" content="Belfast Ruby">
+      <meta name="twitter:description" content="Belfast Ruby is a community of aspiring and experienced developers in Belfast, N.Ireland passionate about Ruby and Rails.">
+      <meta name="twitter:image" content="http://belfastruby-assets.s3.amazonaws.com/belfast-ruby-logo.png">
+      <meta name="twitter:site" content="@belfastruby">
+      <meta name="twitter:creator" content="@rumblelabs">
+
+    </head>
+    <body>
+      <header class="normal_nav clearfix">
+        <section class="about-top">
+          <div class="container">
+            <p>A Community of Aspiring &amp; Experienced Ruby Developers in Belfast</p>
+          </div>
+        </section>
+        <section class="container container-header">
+          <nav>
+            <ul>
+              <li><a href="{{ site.baseurl }}/" {% if page.selected == "upcoming" %}class="active"{% endif %}>Upcoming Event</a></li>
+              <li><a href="{{ site.baseurl }}/past-events/" {% if page.past or page.selected == "past-events" %}class="active"{% endif %}>Past Events</a></li>
+              <li><a href="{{ site.baseurl }}/resources/" {% if page.selected == "resources" %}class="active"{% endif %}>Resources</a></li>
+            </ul>
+          </nav>
+          <a href="{{site.baseurl}}/" class="logo"><img src="{{site.baseurl}}/assets/images/belfast-ruby-logo.svg"></img></a>
+        </section>
+      </header>
+      <header class="mobile_nav clearfix">
+        <a class="belfastruby" href="{{ site.baseurl }}/">Belfast Ruby</a>
+        <span id="burger" class="burger" href="#sidr">burger</span>
+        <div id="sidr" class="sidr">
+          <a href="{{site.baseurl}}/" class="sidr_logo"><img src="{{ site.baseurl }}/assets/images/belfast-ruby-logo.svg"></img></a>
+          <div class="sidr_bio"><p>A community of aspiring &amp;&nbsp;experienced Ruby developers in Belfast</p></div>
+          <nav>
+            <ul>
+              <li><a href="{{ site.baseurl }}/">Upcoming Event</a></li>
+              <li><a href="{{ site.baseurl }}/past-events/">Past Events</a></li>
+              <li><a href="{{ site.baseurl }}/resources/">Resources</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <section class="container clearfix">
+        {{ content }}
+      </section>
+
+      <footer class="clearfix">
+        <section class="container clearfix">
+          <div class="bio">
+            <p>Belfast Ruby is community of aspiring and experienced developers in Belfast, Northern Ireland. We're passionate about Ruby and Rails, holding <a href="{{site.baseurl}}/past-events/">monthly meetups</a> to learn and share.</p>
+          </div>
+          <div class="contact">
+            <li><a href="http://twitter.com/belfastruby"><i class="fa fa-twitter"></i> @BelfastRuby on Twitter</a></li>
+            <li><a href="http://github.com/belfastruby/"><i class="fa fa-github-alt"></i> belfastruby on GitHub</a></li>
+            <li><a href="https://groups.google.com/forum/#!forum/belfastruby"><i class="fa fa-google-plus-square"></i> Google Group</a></li>
+          </div>
+        </section>
+      </footer>
+
+    </body>
+</html>

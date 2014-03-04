@@ -1,0 +1,142 @@
+/* Base Stylesheet for General Styles */
+
+@import "mixins";
+@import "variables";
+
+.container{
+  margin: 0 auto;
+  width: 90%;
+}
+
+.clearfix{
+  clear: both;
+}
+
+body{
+  background: url(../images/ruby-shape.svg) no-repeat top right;
+  box-sizing: border-box;
+}
+
+.about-top{
+  margin: 0 0 1.3em 0;
+  background: $ruby-red;
+  padding: 0.3em 0 0.6em 0;
+}
+
+header.normal_nav{
+  border-top: 5px solid $ruby-red;
+  padding: 0 0 2em 0;
+}
+
+header.mobile_nav{
+  display: none;
+}
+
+nav ul {
+  float: left;
+  li{
+    display: inline-block;
+    padding: 0 1.4em 0 0;
+  }
+}
+
+.logo{
+  float:right;
+  img{
+    max-width: 150px;
+  }
+}
+
+.top-details{
+  width: 80%;
+}
+
+.small-info{
+  padding: 0;
+  margin: 0;
+  width: 80%;
+  position: relative;
+  z-index: 1;
+}
+
+ul.when-where{
+  display: inline-block;
+  margin: 0 2em 0 0;
+}
+
+.red-btn{
+  position: absolute;
+  margin: 5px;
+}
+
+.main-event-details{
+  padding: 80px 0 0 0;
+}
+
+.main-event-details-links{
+  padding: 20px 0 0 0;
+}
+
+
+.sponsor-details{
+  padding: 25px 0 65px 0;
+  ul{
+    padding: 40px 0;
+    li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    }
+  }
+}
+
+ul.sponsor-count-1 li{
+  width: 100%;
+}
+
+ul.sponsor-count-2 li{
+  width: 49%;
+}
+
+ul.sponsor-count-3 li{
+  width: 33%;
+  min-width: 230px;
+}
+
+ul.sponsor-count-4 li{
+  width: 25%;
+}
+
+footer{
+  width: 100%;
+  float: left;
+  padding: 4.5em 0;
+  background: $ruby-red;
+  color: $white;
+}
+
+.bio{
+  width: 55%;
+  padding-right: 10%;
+  float: left;
+}
+
+.contact{
+  width: 30%;
+  float: right;
+}
+
+.resources-page, .past-events-page{
+  padding:0 0 7em 0;
+}
+
+/* IE fixes */
+
+.ie8 body{
+  background: url(../images/ruby-shape.png) no-repeat top right;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+

@@ -1,0 +1,23 @@
+---
+layout: default
+title: Past Meetups
+selected: past-events
+---
+<article class="meetup">
+  <section class="top-details">
+    <h1>Past Events</h1>
+  </section>
+  <section class="clearfix past-events-page">
+    <ul class="ruby-links">
+      {% for post in site.posts %}
+      {% if post.past %}
+      <li>
+        <h2><a href="{{ site.baseurl }}{{ post.url }}"><span class="br-number">{{ post.number }}</span>{{ post.title }}</a></h2>
+        <p>{{ post.intro }}</p>
+        <a href="{{ site.baseurl }}{{ post.url }}"class="read-more">Read More &raquo;</a>
+      </li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </section>
+</article>
