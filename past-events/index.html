@@ -12,9 +12,9 @@ selected: past-events
       {% for post in site.posts %}
       {% if post.past %}
       <li>
-        <h2><a href="{{ site.baseurl }}{{ post.url }}"><span class="br-number">{{ post.number }}</span>{{ post.title }}</a></h2>
+        <h2><a href="{{ post.url }}"><span class="br-number">{{ post.number }}</span>{{ post.title }}</a></h2>
         <p>{{ post.intro }}</p>
-        <a href="{{ site.baseurl }}{{ post.url }}"class="read-more">Read More &raquo;</a>
+        <a href="{{ post.url }}"class="read-more">Read More &raquo;</a>
       </li>
       {% endif %}
       {% endfor %}
