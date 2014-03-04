@@ -21,8 +21,8 @@
       <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
       <script type="text/javascript" src="//use.typekit.net/tmx7bvo.js"></script>
       <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-      <script src="{{ site.baseurl }}/assets/js/all.js"></script>
-      <script src="{{ site.baseurl }}/assets/js/sidr.js"></script>
+      <script src="/assets/js/all.js"></script>
+      <script src="/assets/js/sidr.js"></script>
       <script>
       $(document).ready(function() {
         $('#burger').sidr({
@@ -71,19 +71,19 @@
         <section class="container container-header">
           <nav>
             <ul>
-              <li><a href="{{ site.baseurl }}/" {% if page.selected == "upcoming" %}class="active"{% endif %}>Upcoming Event</a></li>
-              <li><a href="{{ site.baseurl }}/past-events/" {% if page.past or page.selected == "past-events" %}class="active"{% endif %}>Past Events</a></li>
-              <li><a href="{{ site.baseurl }}/resources/" {% if page.selected == "resources" %}class="active"{% endif %}>Resources</a></li>
+              <li><a href="/" {% if page.selected == "upcoming" %}class="active"{% endif %}>Upcoming Event</a></li>
+              <li><a href="/past-events/" {% if page.past or page.selected == "past-events" %}class="active"{% endif %}>Past Events</a></li>
+              <li><a href="/resources/" {% if page.selected == "resources" %}class="active"{% endif %}>Resources</a></li>
             </ul>
           </nav>
-          <a href="{{site.baseurl}}/" class="logo"><img src="{{site.baseurl}}/assets/images/belfast-ruby-logo.svg"></img></a>
+          <a href="/" class="logo"><img src="brewbot-logo.png/assets/images/belfast-ruby-logo.svg"></img></a>
         </section>
       </header>
       <header class="mobile_nav clearfix">
         <a class="belfastruby" href="{{ site.baseurl }}/">Belfast Ruby</a>
         <span id="burger" class="burger" href="#sidr">burger</span>
         <div id="sidr" class="sidr">
-          <a href="{{site.baseurl}}/" class="sidr_logo"><img src="{{ site.baseurl }}/assets/images/belfast-ruby-logo.svg"></img></a>
+          <a href="brewbot-logo.png/" class="sidr_logo"><img src="{{ site.baseurl }}/assets/images/belfast-ruby-logo.svg"></img></a>
           <div class="sidr_bio"><p>A community of aspiring &amp;&nbsp;experienced Ruby developers in Belfast</p></div>
           <nav>
             <ul>
@@ -102,7 +102,7 @@
       <footer class="clearfix">
         <section class="container clearfix">
           <div class="bio">
-            <p>Belfast Ruby is community of aspiring and experienced developers in Belfast, Northern Ireland. We're passionate about Ruby and Rails, holding <a href="{{site.baseurl}}/past-events/">monthly meetups</a> to learn and share.</p>
+            <p>Belfast Ruby is community of aspiring and experienced developers in Belfast, Northern Ireland. We're passionate about Ruby and Rails, holding <a href="brewbot-logo.png/past-events/">monthly meetups</a> to learn and share.</p>
           </div>
           <div class="contact">
             <li><a href="http://twitter.com/belfastruby"><i class="fa fa-twitter"></i> @BelfastRuby on Twitter</a></li>
