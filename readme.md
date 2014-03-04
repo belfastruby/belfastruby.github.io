@@ -23,7 +23,7 @@ We're open to ideas about improving the Belfast Ruby website. Here's a couple id
 This will install all gems required to run the app.
 
     gem install bundler
-    cd belfastruby.com
+    cd belfastruby-website
     bundle install
 
 ### Run site locally
