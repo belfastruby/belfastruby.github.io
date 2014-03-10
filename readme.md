@@ -15,6 +15,8 @@ We're open to ideas about improving the Belfast Ruby website. Here's a couple id
 - Have a section for links to each speaker's slides/companion notes
 - Pull in related Instagram or Flickr images for each meetup
 
+Even if you aren't interested in contributing code, we'd love if you could suggest any ideas for improvements or let us know via GitHub Issue if you run into any bugs.
+
 
 ## Dependencies
 
