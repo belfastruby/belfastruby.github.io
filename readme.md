@@ -1,8 +1,7 @@
-# Belfast Ruby
+# Belfast Ruby 2014
 
 Belfast Ruby is community of aspiring and experienced developers in Belfast, Northern Ireland passionate about Ruby and Rails.
 We hold monthly meetups which are open to everyone.
-
 
 ##Open Sourced - Get Involved
 
@@ -12,8 +11,9 @@ This website is open sourced so that the community can get involved in its devel
 
 We're open to ideas about improving the Belfast Ruby website. Here's a couple ideas we've come up with so far. Add your own or work on bringing these ideas to life.
 
+- Update the resources page with Ruby related links that you find useful
+- Have a section for links to each speaker's slides/companion notes
 - Pull in related Instagram or Flickr images for each meetup
-- Have a section for links to each speaker's slides/ companion notes
 
 
 ## Dependencies
