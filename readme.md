@@ -23,7 +23,7 @@ Even if you aren't interested in contributing code, we'd love if you could sugge
 ### How to Contribute
 
   1. Clone this repository.
-  2. Follow the instructions below for information about how to set up the website locally.
+  2. Follow the instructions below for information about how to get the website up and running locally.
   3. Let us know you’re working on something by commenting on an existing GitHub Issue, or creating a new one with details about what you plan to do. This will be the location to discuss the feature and get feedback.
   4. When working on changes locally, create a new branch for your changes to live.
   5. When you’re ready to push up your changes, commit your code and attach a pull request to the related GitHub Issue. Later we’ll review your changes before merging in your code.
@@ -50,7 +50,6 @@ This site is built on Jekyll. To run the site in your browser locally and watch 
     jekyll serve --watch
 
 Please refer to Jekyll's documentation for help with setting it up http://jekyllrb.com/docs/home/
-
 
 ### Compass
 
