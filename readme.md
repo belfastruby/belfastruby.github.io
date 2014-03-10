@@ -20,6 +20,15 @@ We're open to ideas about improving the Belfast Ruby website. Here's a couple id
 Even if you aren't interested in contributing code, we'd love if you could suggest any ideas for improvements or let us know via GitHub Issue if you run into any bugs.
 
 
+### How to Contribute
+
+  1. Clone this repository.
+  2. Follow the instructions below for information about how to set up the website locally.  3. Let us know you’re working on something by commenting on an existing GitHub Issue, or creating a new one with details about what you plan to do. This will be the location to discuss the feature and get feedback.
+  5. When working on changes locally, create a new branch for your changes to live.
+  6. When you’re ready to push up your changes, commit your code and attach a pull request to the related GitHub Issue. Later we’ll review your changes before merging in your code.
+
+If you’re new to Git, that all might sound a bit confusing, but it’s easy once you know how. Refer to [this guide](http://guides.github.com/overviews/flow/) for more guidance on how to best work on a GitHub project.
+
 ## Dependencies
 
 Here's what you need to run the website locally.
