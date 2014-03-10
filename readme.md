@@ -3,6 +3,8 @@
 Belfast Ruby is community of aspiring and experienced developers in Belfast, Northern Ireland passionate about Ruby and Rails.
 We hold monthly meetups which are open to everyone.
 
+Visit the website - [belfastruby.com](http://www.belfastruby.com)
+
 ##Open Sourced - Get Involved
 
 This website is open sourced so that the community can get involved in its development and contribute whatever they can. Please refer to the GitHub Issues to view a list of bugs or suggested improvements. Feel free to work on these, then when you've committed the changes send a pull request or attach it to the related issue so we can merge it in.
@@ -19,6 +21,8 @@ Even if you aren't interested in contributing code, we'd love if you could sugge
 
 
 ## Dependencies
+
+Here's what you need to run the website locally.
 
 ### Bundler
 
