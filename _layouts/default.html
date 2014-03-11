@@ -29,13 +29,10 @@
           side: 'right',
           displace: true
         });
-        $('#burger').click(function() {
-          $.sidr('open', 'sidr');
-          $(this).addClass('open-burger');
-        });
-        $('.open-burger').on('click', function() {
-          $.sidr('close', 'sidr');
-          $(this).removeClass('open-burger');
+        $('#burger').on('click', function() {
+          action = ($(this).hasClass('open-burger')) ? 'close' : 'open';
+          $.sidr(action, 'sidr')
+          $(this).toggleClass('open-burger');
         });
       });
       </script>
