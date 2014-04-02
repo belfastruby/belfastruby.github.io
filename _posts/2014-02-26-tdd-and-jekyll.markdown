@@ -1,7 +1,7 @@
 ---
 layout: post
 
-past: false
+past: true
 number: "BR-12"
 title: "TDD &amp; Getting Started with Jekyll"
 when: Tuesday 4th March, 6.30pm
