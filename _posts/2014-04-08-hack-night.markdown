@@ -11,7 +11,7 @@ directions: https://maps.google.com/maps?f=d&source=s_d&saddr=&hl=en&ie=UTF8&lay
 
 register_link: "http://digitalcircle.org/events/662"
 
-sponsors: [{name: "Rumble Labs", image: "/assets/images/rumblelabs-logo.png", link: "http://rumblelabs.com"},]
+sponsors: [{name: "Rumble Labs", image: "/assets/images/rumblelabs-logo.png", link: "http://rumblelabs.com"}, {name: "Shopkeep", image: "/assets/images/shopkeeppos-logo.png", link: "http://shopkeep.com"}]
 
 intro: "This month we're skipping the talks and diving right into code. We've discussed various development tools and methods in past meetups, this is your chance to get stuck in.  There'll be help on hand if you stumble upon any issues or have any questions."
 
