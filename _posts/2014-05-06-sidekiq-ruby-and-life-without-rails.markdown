@@ -7,7 +7,7 @@ title: "Sidekiq, Ruby &amp; Life without Rails"
 when: Tuesday 6th May, 6.30pm
 location: ShopKeep POS, Alexander House (1st Floor), 17 Ormeau Avenue
 
-directions: https://maps.google.com/maps?f=d&source=s_d&saddr=&hl=en&ie=UTF8&layer=c&daddr=54.5925564,-5.927705
+directions: https://www.google.com/maps/place/17+Ormeau+Ave/@54.5925564,-5.927705,17z/data=!4m2!3m1!1s0x486108f93df6182d:0x30ef4d86a071c32a?hl=en
 
 register_link: "http://digitalcircle.org/events/belfast-ruby-sidekiq-ruby-life-without-rails"
 
