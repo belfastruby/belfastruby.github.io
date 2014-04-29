@@ -3,7 +3,7 @@ layout: post
 
 past: false
 number: "BR-14"
-title: "Sidekiq, Ruby &amp; Life without Rails"
+title: "Sidekiq, Ruby &amp; Life outside Rails"
 when: Tuesday 6th May, 6.30pm
 location: ShopKeep POS, Alexander House (1st Floor), 17 Ormeau Avenue
 
