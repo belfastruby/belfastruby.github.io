@@ -1,7 +1,7 @@
 ---
 layout: post
 
-past: false
+past: true
 number: "BR-13"
 title: "Hack Night"
 when: Tuesday 8th April, 6.30pm
