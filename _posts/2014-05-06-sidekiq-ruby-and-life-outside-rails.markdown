@@ -1,7 +1,7 @@
 ---
 layout: post
 
-past: false
+past: true
 number: "BR-14"
 title: "Sidekiq, Ruby &amp; Life outside Rails"
 when: Tuesday 6th May, 6.30pm
@@ -20,6 +20,3 @@ intro: "During our next meetup, we'll be exploring how we can use Sidekiq in our
 David Kennedy of [Shopkeep](http://www.shopkeep.com/) will present his talk, "An Adventure in Sidekiq: Millions of rows. One missing. Shenanigans!" He'll be discussing asynchronous workers in Rails, the problems they solve and the pitfalls they present.
 
 In his talk "Life outside Rails," [Stephen McCullough](https://twitter.com/swmcc) of [Six Degree Labs](http://www.sixdegreelabs.com/) will take a look at what lies beyond the familiar framework, and how and when not using Rails will make more sense for your project.
-
-
-
