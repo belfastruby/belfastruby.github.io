@@ -1,7 +1,7 @@
 ---
 layout: post
 
-past: false
+past: true
 number: "BR-15"
 title: "Lean Coffee"
 when: Tuesday 3rd June, 6.30pm
