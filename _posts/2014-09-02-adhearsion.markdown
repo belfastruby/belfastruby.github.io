@@ -1,6 +1,5 @@
 ---
 layout: post
-
 past: false
 number: "BR-17"
 title: "Calling all Rubyists, come &amp; learn about Adhearsion!"
