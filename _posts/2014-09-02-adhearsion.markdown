@@ -18,5 +18,5 @@ intro: "For our upcoming get-together we'll be getting to know the open-sourced,
 
 [Adhearsion](http://www.adhearsion.com/) is an full-featured framework for the development of applications which interact with or control voice communications. It facilitates the creation of complex applications with ease, providing a simple API.
 
-Engineer [Saw Gaw](https://twitter.com/nevercertified) from [Voxbit](https://twitter.com/voxbit) will be demonstrating how you can integrate an Adhearsion app with Rails & DRb. This month is very kindly sponsored by [FourStarPizza](http://www.fourstarpizza.co.uk/) and [Shopkeep](http://www.shopkeep.com/), so come along and get involved in the interactive demo while enjoying the free beer and pizza.
+Engineer [Sam Gaw](https://twitter.com/nevercertified) from [Voxbit](https://twitter.com/voxbit) will be demonstrating how you can integrate an Adhearsion app with Rails & DRb. This month is very kindly sponsored by [FourStarPizza](http://www.fourstarpizza.co.uk/) and [Shopkeep](http://www.shopkeep.com/), so come along and get involved in the interactive demo while enjoying the free beer and pizza.
 
