@@ -1,7 +1,7 @@
 ---
 layout: post
 
-past: false
+past: true
 number: "BR-16"
 title: "Beer, Wings &amp; Code Chat"
 when: Tuesday 5th August, 6.30pm
