@@ -1,6 +1,5 @@
 ---
 layout: post
-
 past: true
 number: "BR-16"
 title: "Beer, Wings &amp; Code Chat"

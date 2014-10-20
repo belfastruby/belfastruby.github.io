@@ -1,6 +1,6 @@
 ---
 layout: post
-past: false
+past: true
 number: "BR-17"
 title: "Calling all Rubyists, come &amp; learn about Adhearsion!"
 when: Tuesday 2nd September, 6.30pm
