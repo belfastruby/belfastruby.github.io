@@ -2,13 +2,13 @@
 layout: post
 past: false
 number: "BR-18"
-title: "Teaming up with Break Conf"
+title: "A Special Break Conf Meetup"
 when: Wednesday 12th November, 7pm
 location: 21 Social,  1 Hill Street, Cathedral Quarter
 
 directions: "http://maps.google.co.uk/maps?q=21+Social&hl=en&ll=54.601095,-5.926309&spn=0.01018,0.025921&sll=54.592891,-5.929399&sspn=0.010182,0.025921&oq=21+social&vpsrc=6&hq=21+Social&t=m&z=16"
 
-register_link: "http://digitalcircle.org/events/belfast-ruby-teaming-up-with-break-conf"
+register_link: "http://digitalcircle.org/events/belfast-ruby-a-special-break-conf-meetup"
 
 sponsors: [{name: "Rumble Labs", image: "/assets/images/rumblelabs-logo.png", link: "http://rumblelabs.com"}, {name: "Shopkeep", image: "/assets/images/shopkeeppos-logo.png", link: "http://shopkeep.com"}, {name: "Nuu", image: "/assets/images/nuu-logo.png", link: "http://nuu.in"}]
 
