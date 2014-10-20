@@ -12,7 +12,7 @@ register_link: "http://digitalcircle.org/events/belfast-ruby-a-special-break-con
 
 sponsors: [{name: "Rumble Labs", image: "/assets/images/rumblelabs-logo.png", link: "http://rumblelabs.com"}, {name: "Shopkeep", image: "/assets/images/shopkeeppos-logo.png", link: "http://shopkeep.com"}, {name: "Nuu", image: "/assets/images/nuu-logo.png", link: "http://nuu.in"}]
 
-intro: "We're very pleased to announce that we'll be joining the Break Conference fringe activities. Our meetup will be happening on Wednesday 12th November at 21 Social, where we plan to host a series of lightening talks. Join us for some code discussion and a few drinks. We'd also like to invite anyone interested in speaking to get involved."
+intro: "We're very pleased to announce that we'll be joining the Break Conference fringe activities. Our meetup will be happening on Wednesday 12th November at 21 Social, where we'll be hosting a series of lightening talks. Join us for code discussion and a few drinks at the free bar, courtesy of ShopKeep. We'd also like to invite anyone interested in speaking to get involved."
 
 ---
 
