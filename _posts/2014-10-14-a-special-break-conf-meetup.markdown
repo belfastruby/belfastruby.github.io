@@ -19,7 +19,9 @@ intro: "We're joining the Break Conference fringe activities this week, as we'll
 
 Our speakers include [Tommy Palmer](https://twitter.com/tommypalm) from [The Government Digital Service](https://gds.blog.gov.uk/), who will be giving us an insight into his process of coding and how [GOV.UK](https://www.gov.uk/) is set up.
 
-Following this, designer and illustrator [Paddy Donelly](https://twitter.com/paddydonnelly) will be providing tips on how developers and designers can work together more effectively. [Coby Chapple](https://twitter.com/cobyism) from [GitHub](http://github.com) will be also be giving a short talk, with details to be confirmed.
+Following this, designer and illustrator [Paddy Donelly](https://twitter.com/paddydonnelly) will be providing tips on how developers and designers can work together more effectively.
+
+[Coby Chapple](https://twitter.com/cobyism) from [GitHub](http://github.com) will be also be giving a short talk, with details to be confirmed.
 
 Come along and enjoy the code talk and free bar courtesy of [ShopKeep](http://www.shopkeep.com/).
 
