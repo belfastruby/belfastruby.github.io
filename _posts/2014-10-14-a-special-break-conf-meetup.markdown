@@ -13,9 +13,7 @@ register_link: "http://www.digitalcircle.org/events/belfast-ruby-a-special-break
 
 sponsors: [{name: "Rumble Labs", image: "/assets/images/rumblelabs-logo.png", link: "http://rumblelabs.com"}, {name: "Shopkeep", image: "/assets/images/shopkeeppos-logo.png", link: "http://shopkeep.com"}, {name: "Nuu", image: "/assets/images/nuu-logo.png", link: "http://nuu.in"}]
 
-intro: "Interested in learning a little bit about Ruby and Rails, or just want to get knee deep in some code discussion over a few drinks? Come along to our meetup this week as we'll be joining the Break Conference fringe activities. The meetup is open to everyone so don't worry if you haven't scooped up a ticket for Break.
-
-Kicking off at 7pm on Wednesday 12th November at 21 Social, we'll be hosting a series of lightening talks. Join us for code discussion and a few drinks at the free bar, courtesy of ShopKeep."
+intro: "We're joining the Break Conference fringe activities this week, as we'll be hosting a series of lightening talks kicking off at 7pm on Wednesday 12th November at 21 Social. The meetup is open to everyone so don't worry if you haven't scooped up a ticket for Break. If you're interested in Ruby, Rails or just want to discuss code over a few drinks, come along!"
 
 ---
 
