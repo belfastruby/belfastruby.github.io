@@ -13,13 +13,18 @@ register_link: "http://www.digitalcircle.org/events/belfast-ruby-a-special-break
 
 sponsors: [{name: "Rumble Labs", image: "/assets/images/rumblelabs-logo.png", link: "http://rumblelabs.com"}, {name: "Shopkeep", image: "/assets/images/shopkeeppos-logo.png", link: "http://shopkeep.com"}, {name: "Nuu", image: "/assets/images/nuu-logo.png", link: "http://nuu.in"}]
 
-intro: "We're very pleased to announce that we'll be joining the Break Conference fringe activities. Our meetup will be happening on Wednesday 12th November at 21 Social, where we'll be hosting a series of lightening talks. Join us for code discussion and a few drinks at the free bar, courtesy of ShopKeep. We'd also like to invite anyone interested in speaking to get involved."
+intro: "Interested in learning a little bit about Ruby and Rails, or just want to get knee deep in code discussion over a few drinks? Come along to our meetup this week as we'll be joining the Break Conference fringe activities. Our meetup is open to everyone so don't worry if you haven't scooped up a ticket for Break.
+
+Our meetup will kick off at 7pm on Wednesday 12th November at 21 Social, where we'll be hosting a series of lightening talks. Join us for code discussion and a few drinks at the free bar, courtesy of ShopKeep."
 
 ---
 
-Belfast Ruby isn't just for experienced Ruby developers, our meetups are for anyone with an interest in learning a little bit about Ruby or Rails. Join us at 7pm at 21 Social, and if you haven't scooped up a ticket for [Break](http://breakconf.org/) don't worry, our meetup is open to everyone.
+We'll be hosting a series of lightning talks from 7pm on Wednesday 12th November. Our speakers include [Tommy Palmer](https://twitter.com/tommypalm) from [The Government Digital Service](https://gds.blog.gov.uk/), who will be giving us an insight into his process of coding and how [GOV.UK](https://www.gov.uk/) is set up.
 
-We're currently on the lookout for people willing to give a short Ruby-related talk at the meetup. If you're interested get in touch via [email](mailto:mkeizer@rumblelabs.com) or [Twitter](http://twitter.com/belfastruby). We hope to see plenty of new faces and look forward to enjoying the Break Conf buzz.
+Following this, designer and illustrator [Paddy Donelly](https://twitter.com/paddydonnelly) will be providing tips on how developers and designers can work together more effectively. [Coby Chapple](https://twitter.com/cobyism) from [GitHub](http://github.com) will be also be giving a short talk, with details to be confirmed.
+
+Come along and enjoy the code talk and free bar courtesy of [ShopKeep](http://www.shopkeep.com/).
+
 
 
 
