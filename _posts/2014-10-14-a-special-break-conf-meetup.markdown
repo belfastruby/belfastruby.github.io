@@ -13,7 +13,7 @@ register_link: "http://www.digitalcircle.org/events/belfast-ruby-a-special-break
 
 sponsors: [{name: "Rumble Labs", image: "/assets/images/rumblelabs-logo.png", link: "http://rumblelabs.com"}, {name: "Shopkeep", image: "/assets/images/shopkeeppos-logo.png", link: "http://shopkeep.com"}, {name: "Nuu", image: "/assets/images/nuu-logo.png", link: "http://nuu.in"}]
 
-intro: "We're joining the Break Conference fringe activities this week, as we'll be hosting a series of lightening talks kicking off at 7pm on Wednesday 12th November at 21 Social. The meetup is open to everyone so don't worry if you haven't scooped up a ticket for Break. If you're interested in Ruby, Rails or just want to discuss code over a few drinks, come along!"
+intro: "We're joining the Break Conference fringe activities this week, as we'll be hosting a series of lightening talks, kicking off at 7pm on Wednesday 12th November at 21 Social. The meetup is open to everyone so don't worry if you haven't scooped up a ticket for Break. If you're interested in Ruby, Rails or just want to discuss code over a few drinks, come along!"
 
 ---
 
@@ -21,7 +21,7 @@ Our speakers include [Tommy Palmer](https://twitter.com/tommypalm) from [The Gov
 
 Following this, designer and illustrator [Paddy Donelly](https://twitter.com/paddydonnelly) will be providing tips on how developers and designers can work together more effectively.
 
-[Coby Chapple](https://twitter.com/cobyism) from [GitHub](http://github.com) will be also be giving a short talk, with details to be confirmed.
+[Coby Chapple](https://twitter.com/cobyism) will conclude the evening's talks by discussing a few things that he's learned about Ruby, Rails, and development in general as a designer working on a large app like [GitHub](http://github.com).
 
 Come along and enjoy the code talk and free bar courtesy of [ShopKeep](http://www.shopkeep.com/).
 
