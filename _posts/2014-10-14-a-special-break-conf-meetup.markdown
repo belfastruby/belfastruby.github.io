@@ -1,6 +1,6 @@
 ---
 layout: post
-past: false
+past: true
 number: "BR-18"
 title: "A Special Break Conf Meetup"
 when: Wednesday 12th November, 7pm

@@ -1,6 +1,5 @@
 ---
 layout: post
-
 past: true
 number: "BR-14"
 title: "Sidekiq, Ruby &amp; Life outside Rails"
