@@ -1,6 +1,6 @@
 ---
 layout: post
-past: false
+past: true
 number: "BR-19"
 title: "Mutation Testing &amp; a Whirlwind Tour of Ruby Projects"
 when: Tuesday 3rd February, 6.30pm
@@ -24,7 +24,3 @@ prevents bugs creeping in. During the evening you'll learn how to take testing o
 Following Dean, fellow [ShopKeep](http://www.shopkeep.com/) developer [Stephen Rushe](https://twitter.com/srushe) will take us on a tour of Ruby projects, exploring how Ruby exists beyond Rails by looking at some interesting projects.
 
 If that isn't enough, there'll be drinks and free pizza kindly supplied by [FourStarPizza](http://www.fourstarpizza.co.uk/). We hope to see you there!
-
-
-
-
