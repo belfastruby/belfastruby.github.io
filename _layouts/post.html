@@ -20,21 +20,5 @@ layout: default
       {{content}}
     </div>
   </section>
-  <section class="sponsor-details clearfix">
-    <h2><span class="underline">Meetup</span> Sponsors</h2>
-    <ul class="sponsor-count-{{page.sponsors.size}}">
-      {% for sponsor in page.sponsors  %}
-      {% if sponsor.name == "rumble" %}
-      <li class="rumble">
-      {% else %}
-      <li>
-      {% endif %}
-      <a href="{{sponsor.link}}">
-        <img src="{{ site.baseurl }}{{sponsor.image}}" />
-      </a>
-      </li>
-      {% endfor %}
-    </ul>
-    <a class="bar" href="mailto:hello@rumblelabs.com">This event is kindly sponsored by these fine folks. Interested in sponsoring a meetup? <span class="get-in-touch">Get&nbsp;in&nbsp;touch </span></a>
-  </section>
+  {% include sponsors.html sponsors=page.sponsors %}
 </article>
