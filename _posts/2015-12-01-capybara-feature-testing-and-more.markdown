@@ -10,7 +10,7 @@ directions: https://www.google.com/maps/place/17+Ormeau+Ave/@54.5925564,-5.92770
 
 register_link: "http://www.meetup.com/BelfastRuby/events/226588609/"
 
-sponsors: [{name: "Shopkeep", image: "/assets/images/shopkeeppos-logo.png", link: "http://shopkeep.com"}]
+sponsors: [{name: "Shopkeep", image: "/assets/images/shopkeeppos-logo.png", link: "http://shopkeep.com"}, {name: "Four Star Pizza", image: "/assets/images/fourstarpizza-logo.png", link: "http://www.fourstarpizza.co.uk/"}]
 
 intro: "Time to update your diaries, as the December 2015 meetup has now been confirmed! We have three great talks lined up, suited to both the aspiring and experienced Rubyists among us."
 
