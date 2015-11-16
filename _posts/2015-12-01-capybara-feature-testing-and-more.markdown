@@ -2,7 +2,7 @@
 layout: post
 past: false
 number: "BR-20"
-title: "Capybara Feature Testing &amp; more"
+title: "Feature Testing, Rails Architectures &amp; more"
 when: Tuesday 1st December, 6.30pm
 location: ShopKeep POS, Alexander House (1st Floor), 17 Ormeau Avenue
 
@@ -20,7 +20,7 @@ Your unit tests may be working, but did you actually deliver that feature you pr
 
 Following Alan, [Andrew Carr](https://twitter.com/ac2u) will be giving a talk on alternative Rails architectures.
 
-The third and final talk will be given by Lead [ShopKeep](http://www.shopkeep.com/) Engineer Paul Guelpa. Paul will be specially visiting from the New York offices to impart his wisdom on how implementing ShopKeep's platform services in Go has taught him more about Ruby.
+The third and final talk will be given by Lead [ShopKeep](http://www.shopkeep.com/) Engineer [Paul Guelpa](https://www.linkedin.com/in/paulguelpa). Paul will be specially visiting from the New York offices to impart his wisdom on how implementing ShopKeep's platform services in Go has taught him more about Ruby.
 
 With the next meetup being so close to the festivity of Christmas, let's start the celebrations with mulled wine and food.
 
