@@ -2,6 +2,7 @@
 
 @import "mixins";
 @import "variables";
+@import "sponsors";
 
 .container{
   margin: 0 auto;
@@ -77,35 +78,6 @@ ul.when-where{
   padding: 20px 0 0 0;
 }
 
-
-.sponsor-details{
-  padding: 25px 0 65px 0;
-  ul{
-    padding: 40px 0;
-    li{
-    list-style: none;
-    display: inline-block;
-    text-align: center;
-    }
-  }
-}
-
-ul.sponsor-count-1 li{
-  width: 100%;
-}
-
-ul.sponsor-count-2 li{
-  width: 49%;
-}
-
-ul.sponsor-count-3 li{
-  width: 33%;
-  min-width: 230px;
-}
-
-ul.sponsor-count-4 li{
-  width: 25%;
-}
 
 footer{
   width: 100%;

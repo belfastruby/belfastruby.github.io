@@ -749,66 +749,102 @@ ul.ruby-links li a.read-more:hover {
 /* ============================
    Variables
    ============================ */
-/* line 6, ../sass/_base.scss */
+/* line 1, ../sass/_sponsors.scss */
+.sponsor-details {
+  padding: 25px 0 65px 0;
+}
+/* line 4, ../sass/_sponsors.scss */
+.sponsor-details__list {
+  padding: 40px 0;
+}
+/* line 7, ../sass/_sponsors.scss */
+.sponsor-details__list--1 li {
+  width: 100%;
+}
+/* line 11, ../sass/_sponsors.scss */
+.sponsor-details__list--2 li {
+  width: 49%;
+}
+/* line 15, ../sass/_sponsors.scss */
+.sponsor-details__list--3 li {
+  width: 33%;
+  min-width: 230px;
+}
+/* line 20, ../sass/_sponsors.scss */
+.sponsor-details__list--4 li {
+  width: 25%;
+}
+/* line 24, ../sass/_sponsors.scss */
+.sponsor-details__list__sponsor {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+}
+/* line 29, ../sass/_sponsors.scss */
+.sponsor-details__list__sponsor img {
+  max-width: 240px;
+}
+
+/* line 7, ../sass/_base.scss */
 .container {
   margin: 0 auto;
   width: 90%;
 }
 
-/* line 11, ../sass/_base.scss */
+/* line 12, ../sass/_base.scss */
 .clearfix {
   clear: both;
 }
 
-/* line 15, ../sass/_base.scss */
+/* line 16, ../sass/_base.scss */
 body {
   background: url(../images/ruby-shape.svg) no-repeat top right;
   box-sizing: border-box;
 }
 
-/* line 20, ../sass/_base.scss */
+/* line 21, ../sass/_base.scss */
 .about-top {
   margin: 0 0 1.3em 0;
   background: #891438;
   padding: 0.3em 0 0.6em 0;
 }
 
-/* line 26, ../sass/_base.scss */
+/* line 27, ../sass/_base.scss */
 header.normal_nav {
   border-top: 5px solid #891438;
   padding: 0 0 2em 0;
 }
 
-/* line 31, ../sass/_base.scss */
+/* line 32, ../sass/_base.scss */
 header.mobile_nav {
   display: none;
 }
 
-/* line 35, ../sass/_base.scss */
+/* line 36, ../sass/_base.scss */
 nav ul {
   float: left;
 }
-/* line 37, ../sass/_base.scss */
+/* line 38, ../sass/_base.scss */
 nav ul li {
   display: inline-block;
   padding: 0 1.4em 0 0;
 }
 
-/* line 43, ../sass/_base.scss */
+/* line 44, ../sass/_base.scss */
 .logo {
   float: right;
 }
-/* line 45, ../sass/_base.scss */
+/* line 46, ../sass/_base.scss */
 .logo img {
   max-width: 150px;
 }
 
-/* line 50, ../sass/_base.scss */
+/* line 51, ../sass/_base.scss */
 .top-details {
   width: 80%;
 }
 
-/* line 54, ../sass/_base.scss */
+/* line 55, ../sass/_base.scss */
 .small-info {
   padding: 0;
   margin: 0;
@@ -817,65 +853,29 @@ nav ul li {
   z-index: 1;
 }
 
-/* line 62, ../sass/_base.scss */
+/* line 63, ../sass/_base.scss */
 ul.when-where {
   display: inline-block;
   margin: 0 2em 0 0;
 }
 
-/* line 67, ../sass/_base.scss */
+/* line 68, ../sass/_base.scss */
 .red-btn {
   position: absolute;
   margin: 5px;
 }
 
-/* line 72, ../sass/_base.scss */
+/* line 73, ../sass/_base.scss */
 .main-event-details {
   padding: 80px 0 0 0;
 }
 
-/* line 76, ../sass/_base.scss */
+/* line 77, ../sass/_base.scss */
 .main-event-details-links {
   padding: 20px 0 0 0;
 }
 
-/* line 81, ../sass/_base.scss */
-.sponsor-details {
-  padding: 25px 0 65px 0;
-}
-/* line 83, ../sass/_base.scss */
-.sponsor-details ul {
-  padding: 40px 0;
-}
-/* line 85, ../sass/_base.scss */
-.sponsor-details ul li {
-  list-style: none;
-  display: inline-block;
-  text-align: center;
-}
-
-/* line 93, ../sass/_base.scss */
-ul.sponsor-count-1 li {
-  width: 100%;
-}
-
-/* line 97, ../sass/_base.scss */
-ul.sponsor-count-2 li {
-  width: 49%;
-}
-
-/* line 101, ../sass/_base.scss */
-ul.sponsor-count-3 li {
-  width: 33%;
-  min-width: 230px;
-}
-
-/* line 106, ../sass/_base.scss */
-ul.sponsor-count-4 li {
-  width: 25%;
-}
-
-/* line 110, ../sass/_base.scss */
+/* line 82, ../sass/_base.scss */
 footer {
   width: 100%;
   float: left;
@@ -884,26 +884,26 @@ footer {
   color: #fff;
 }
 
-/* line 118, ../sass/_base.scss */
+/* line 90, ../sass/_base.scss */
 .bio {
   width: 55%;
   padding-right: 10%;
   float: left;
 }
 
-/* line 124, ../sass/_base.scss */
+/* line 96, ../sass/_base.scss */
 .contact {
   width: 30%;
   float: right;
 }
 
-/* line 129, ../sass/_base.scss */
+/* line 101, ../sass/_base.scss */
 .resources-page, .past-events-page {
   padding: 0 0 7em 0;
 }
 
 /* IE fixes */
-/* line 135, ../sass/_base.scss */
+/* line 107, ../sass/_base.scss */
 .ie8 body {
   background: url(../images/ruby-shape.png) no-repeat top right;
   box-sizing: border-box;
