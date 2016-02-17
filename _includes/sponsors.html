@@ -1,12 +1,8 @@
 <section class="sponsor-details clearfix">
   <h2><span class="underline">Event</span> Sponsors</h2>
-   <ul class="sponsor-count-{{include.sponsors.size}}">
+  <ul class="sponsor-details__list sponsor-details__list--{{include.sponsors.size}}">
     {% for sponsor in include.sponsors  %}
-      {% if sponsor.name == "rumble" %}
-        <li class="rumble">
-      {% else %}
-        <li>
-      {% endif %}
+      <li class="sponsor-details__list__sponsor sponsor-details__list__sponsor--{{sponsor.name | downcase}}">
         <a href="{{sponsor.link}}">
           <img src="{{ site.baseurl }}{{sponsor.image}}" />
         </a>
