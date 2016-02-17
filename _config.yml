@@ -1,5 +1,5 @@
 name: Belfast Ruby
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 baseurl :
 
