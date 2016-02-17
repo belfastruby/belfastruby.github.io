@@ -7,7 +7,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 @font-face {
   font-family: 'Aleo-Light';
   src: url("../fonts/aleo-light-webfont.eot");
@@ -15,7 +14,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 @font-face {
   font-family: 'Aleo-Regular';
   src: url("../fonts/aleo-regular-webfont.eot");
@@ -23,7 +21,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 /* ============================
    Variables
    ============================ */
@@ -34,7 +31,7 @@
 /*
  * Corrects `block` display not defined in IE 8/9.
  */
-/* line 21, ../sass/_normalize.scss */
+/* line 11, ../sass/_normalize.scss */
 article,
 aside,
 details,
@@ -52,7 +49,7 @@ summary {
 /*
  * Corrects `inline-block` display not defined in IE 8/9.
  */
-/* line 31, ../sass/_normalize.scss */
+/* line 29, ../sass/_normalize.scss */
 audio,
 canvas,
 video {
@@ -117,7 +114,7 @@ a:focus {
 /*
  * Improves readability when focused and also mouse hovered in all browsers.
  */
-/* line 94, ../sass/_normalize.scss */
+/* line 93, ../sass/_normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -146,7 +143,7 @@ abbr[title] {
 /*
  * Addresses style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 124, ../sass/_normalize.scss */
+/* line 123, ../sass/_normalize.scss */
 b,
 strong {
   font-weight: bold;
@@ -172,7 +169,7 @@ mark {
 /*
  * Corrects font family set oddly in Safari 5 and Chrome.
  */
-/* line 153, ../sass/_normalize.scss */
+/* line 150, ../sass/_normalize.scss */
 code,
 kbd,
 pre,
@@ -210,7 +207,7 @@ small {
 /*
  * Prevents `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 189, ../sass/_normalize.scss */
+/* line 188, ../sass/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -289,7 +286,7 @@ legend {
  * 2. Corrects font size not being inherited in all browsers.
  * 3. Addresses margins set differently in Firefox 4+, Safari 5, and Chrome
  */
-/* line 269, ../sass/_normalize.scss */
+/* line 266, ../sass/_normalize.scss */
 button,
 input,
 select,
@@ -306,7 +303,7 @@ textarea {
  * Addresses Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 281, ../sass/_normalize.scss */
+/* line 280, ../sass/_normalize.scss */
 button,
 input {
   line-height: normal;
@@ -319,7 +316,7 @@ input {
  * 3. Improves usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 296, ../sass/_normalize.scss */
+/* line 293, ../sass/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -333,7 +330,7 @@ input[type="submit"] {
 /*
  * Re-set default cursor for disabled elements.
  */
-/* line 306, ../sass/_normalize.scss */
+/* line 305, ../sass/_normalize.scss */
 button[disabled],
 input[disabled] {
   cursor: default;
@@ -343,7 +340,7 @@ input[disabled] {
  * 1. Addresses box sizing set to `content-box` in IE 8/9.
  * 2. Removes excess padding in IE 8/9.
  */
-/* line 316, ../sass/_normalize.scss */
+/* line 315, ../sass/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -371,7 +368,7 @@ input[type="search"] {
  * Removes inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-/* line 340, ../sass/_normalize.scss */
+/* line 339, ../sass/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -380,7 +377,7 @@ input[type="search"]::-webkit-search-decoration {
 /*
  * Removes inner padding and border in Firefox 4+.
  */
-/* line 349, ../sass/_normalize.scss */
+/* line 348, ../sass/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -447,7 +444,7 @@ body {
 
 /* line 11, ../sass/_typography.scss */
 h1 {
-  color: #4c4c4c;
+  color: #4C4C4C;
   font-family: "Aleo-Regular", Georgia, serif;
   font-size: 100px;
   font-weight: 100;
@@ -517,7 +514,7 @@ p a:hover {
 /* Header */
 /* line 72, ../sass/_typography.scss */
 .about-top p {
-  color: #efefef;
+  color: #EFEFEF;
   font-family: "proxima-nova", Helvetica, Arial, sans-serif;
   font-size: 15px;
   font-weight: 300;
@@ -525,7 +522,7 @@ p a:hover {
 
 /* line 79, ../sass/_typography.scss */
 .mobile_nav a.belfastruby {
-  color: #efefef;
+  color: #EFEFEF;
   font-family: "proxima-nova", Helvetica, Arial, sans-serif;
   font-size: 15px;
   font-weight: 300;
@@ -537,7 +534,7 @@ p a:hover {
 /* Main Navigation */
 /* line 91, ../sass/_typography.scss */
 nav ul li a {
-  color: #afafaf;
+  color: #AFAFAF;
   font-family: "proxima-nova", Helvetica, Arial, sans-serif;
   font-weight: 300;
   letter-spacing: 0.07em;
@@ -556,13 +553,13 @@ nav ul li a.active {
 /* Main Event Details */
 /* line 108, ../sass/_typography.scss */
 a.red-btn {
-  -webkit-transition-duration: 0.3s;
   -moz-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
-  -webkit-transition-property: color, background;
   -moz-transition-property: color, background;
   -o-transition-property: color, background;
+  -webkit-transition-property: color, background;
   transition-property: color, background;
   background: none;
   border-radius: 3px;
@@ -582,7 +579,7 @@ a.red-btn {
 /* line 21, ../sass/_mixins.scss */
 a.red-btn:hover {
   background: #891438;
-  color: white;
+  color: #fff;
 }
 /* line 25, ../sass/_mixins.scss */
 a.red-btn:active {
@@ -598,7 +595,7 @@ a.red-btn:active {
 }
 /* line 118, ../sass/_typography.scss */
 .when-where li {
-  color: #4c4c4c;
+  color: #4C4C4C;
 }
 /* line 121, ../sass/_typography.scss */
 .when-where a {
@@ -635,12 +632,10 @@ a.red-btn:active {
 
 /* line 149, ../sass/_typography.scss */
 a.bar {
-  -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
+  -webkit-border-radius: 3px;
   border-radius: 3px;
-  background: #efefef;
+  background: #EFEFEF;
   color: #494949;
   display: block;
   font-family: "proxima-nova", Helvetica, Arial, sans-serif;
@@ -668,20 +663,20 @@ a.bar:hover .get-in-touch {
 }
 /* line 173, ../sass/_typography.scss */
 a.bar:active {
-  background: lightgrey;
+  background: lightgray;
 }
 
 /* Footer */
 /* line 181, ../sass/_typography.scss */
 footer .bio p {
-  color: white;
+  color: #fff;
   font-size: 22px;
   line-height: 39px;
   margin: 0;
 }
 /* line 186, ../sass/_typography.scss */
 footer .bio p a {
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
 /* line 189, ../sass/_typography.scss */
@@ -697,7 +692,7 @@ footer .contact li {
 }
 /* line 199, ../sass/_typography.scss */
 footer .contact li a {
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
 /* line 203, ../sass/_typography.scss */
@@ -754,66 +749,102 @@ ul.ruby-links li a.read-more:hover {
 /* ============================
    Variables
    ============================ */
-/* line 6, ../sass/_base.scss */
+/* line 1, ../sass/_sponsors.scss */
+.sponsor-details {
+  padding: 25px 0 65px 0;
+}
+/* line 4, ../sass/_sponsors.scss */
+.sponsor-details__list {
+  padding: 40px 0;
+}
+/* line 7, ../sass/_sponsors.scss */
+.sponsor-details__list--1 li {
+  width: 100%;
+}
+/* line 11, ../sass/_sponsors.scss */
+.sponsor-details__list--2 li {
+  width: 49%;
+}
+/* line 15, ../sass/_sponsors.scss */
+.sponsor-details__list--3 li {
+  width: 33%;
+  min-width: 230px;
+}
+/* line 20, ../sass/_sponsors.scss */
+.sponsor-details__list--4 li {
+  width: 25%;
+}
+/* line 24, ../sass/_sponsors.scss */
+.sponsor-details__list__sponsor {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+}
+/* line 29, ../sass/_sponsors.scss */
+.sponsor-details__list__sponsor img {
+  max-width: 240px;
+}
+
+/* line 7, ../sass/_base.scss */
 .container {
   margin: 0 auto;
   width: 90%;
 }
 
-/* line 11, ../sass/_base.scss */
+/* line 12, ../sass/_base.scss */
 .clearfix {
   clear: both;
 }
 
-/* line 15, ../sass/_base.scss */
+/* line 16, ../sass/_base.scss */
 body {
   background: url(../images/ruby-shape.svg) no-repeat top right;
   box-sizing: border-box;
 }
 
-/* line 20, ../sass/_base.scss */
+/* line 21, ../sass/_base.scss */
 .about-top {
   margin: 0 0 1.3em 0;
   background: #891438;
   padding: 0.3em 0 0.6em 0;
 }
 
-/* line 26, ../sass/_base.scss */
+/* line 27, ../sass/_base.scss */
 header.normal_nav {
   border-top: 5px solid #891438;
   padding: 0 0 2em 0;
 }
 
-/* line 31, ../sass/_base.scss */
+/* line 32, ../sass/_base.scss */
 header.mobile_nav {
   display: none;
 }
 
-/* line 35, ../sass/_base.scss */
+/* line 36, ../sass/_base.scss */
 nav ul {
   float: left;
 }
-/* line 37, ../sass/_base.scss */
+/* line 38, ../sass/_base.scss */
 nav ul li {
   display: inline-block;
   padding: 0 1.4em 0 0;
 }
 
-/* line 43, ../sass/_base.scss */
+/* line 44, ../sass/_base.scss */
 .logo {
   float: right;
 }
-/* line 45, ../sass/_base.scss */
+/* line 46, ../sass/_base.scss */
 .logo img {
   max-width: 150px;
 }
 
-/* line 50, ../sass/_base.scss */
+/* line 51, ../sass/_base.scss */
 .top-details {
   width: 80%;
 }
 
-/* line 54, ../sass/_base.scss */
+/* line 55, ../sass/_base.scss */
 .small-info {
   padding: 0;
   margin: 0;
@@ -822,93 +853,57 @@ nav ul li {
   z-index: 1;
 }
 
-/* line 62, ../sass/_base.scss */
+/* line 63, ../sass/_base.scss */
 ul.when-where {
   display: inline-block;
   margin: 0 2em 0 0;
 }
 
-/* line 67, ../sass/_base.scss */
+/* line 68, ../sass/_base.scss */
 .red-btn {
   position: absolute;
   margin: 5px;
 }
 
-/* line 72, ../sass/_base.scss */
+/* line 73, ../sass/_base.scss */
 .main-event-details {
   padding: 80px 0 0 0;
 }
 
-/* line 76, ../sass/_base.scss */
+/* line 77, ../sass/_base.scss */
 .main-event-details-links {
   padding: 20px 0 0 0;
 }
 
-/* line 81, ../sass/_base.scss */
-.sponsor-details {
-  padding: 25px 0 65px 0;
-}
-/* line 83, ../sass/_base.scss */
-.sponsor-details ul {
-  padding: 40px 0;
-}
-/* line 85, ../sass/_base.scss */
-.sponsor-details ul li {
-  list-style: none;
-  display: inline-block;
-  text-align: center;
-}
-
-/* line 93, ../sass/_base.scss */
-ul.sponsor-count-1 li {
-  width: 100%;
-}
-
-/* line 97, ../sass/_base.scss */
-ul.sponsor-count-2 li {
-  width: 49%;
-}
-
-/* line 101, ../sass/_base.scss */
-ul.sponsor-count-3 li {
-  width: 33%;
-  min-width: 230px;
-}
-
-/* line 106, ../sass/_base.scss */
-ul.sponsor-count-4 li {
-  width: 25%;
-}
-
-/* line 110, ../sass/_base.scss */
+/* line 82, ../sass/_base.scss */
 footer {
   width: 100%;
   float: left;
   padding: 4.5em 0;
   background: #891438;
-  color: white;
+  color: #fff;
 }
 
-/* line 118, ../sass/_base.scss */
+/* line 90, ../sass/_base.scss */
 .bio {
   width: 55%;
   padding-right: 10%;
   float: left;
 }
 
-/* line 124, ../sass/_base.scss */
+/* line 96, ../sass/_base.scss */
 .contact {
   width: 30%;
   float: right;
 }
 
-/* line 129, ../sass/_base.scss */
+/* line 101, ../sass/_base.scss */
 .resources-page, .past-events-page {
   padding: 0 0 7em 0;
 }
 
 /* IE fixes */
-/* line 135, ../sass/_base.scss */
+/* line 107, ../sass/_base.scss */
 .ie8 body {
   background: url(../images/ruby-shape.png) no-repeat top right;
   box-sizing: border-box;
@@ -940,7 +935,7 @@ header.mobile_nav a.belfastruby {
 }
 /* line 17, ../sass/_mobile.scss */
 header.mobile_nav a.belfastruby:active {
-  color: white;
+  color: #fff;
 }
 
 /* line 23, ../sass/_mobile.scss */
@@ -969,7 +964,7 @@ header.mobile_nav a.belfastruby:active {
   overflow-x: none;
   overflow-y: auto;
   background: #2f2f2f;
-  color: white;
+  color: #fff;
 }
 
 /* line 51, ../sass/_mobile.scss */
@@ -990,7 +985,7 @@ header.mobile_nav a.belfastruby:active {
 /* line 62, ../sass/_mobile.scss */
 .sidr_bio p {
   text-align: center;
-  color: #efefef;
+  color: #EFEFEF;
   font-family: "proxima-nova", Helvetica, Arial, sans-serif;
   font-size: 15px;
   padding: 0.5em 1.2em 1.5em 1.2em;
@@ -1009,14 +1004,14 @@ header.mobile_nav a.belfastruby:active {
 /* line 77, ../sass/_mobile.scss */
 #sidr ul li {
   width: 100%;
-  color: white;
+  color: #fff;
   text-align: center;
   list-style: none;
 }
 /* line 82, ../sass/_mobile.scss */
 #sidr ul li a {
   font-family: "proxima-nova", Helvetica, Arial, sans-serif;
-  color: #efefef;
+  color: #EFEFEF;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 500;
@@ -1028,7 +1023,7 @@ header.mobile_nav a.belfastruby:active {
 }
 /* line 93, ../sass/_mobile.scss */
 #sidr ul li a.active {
-  color: white;
+  color: #fff;
   background: #222222;
 }
 /* line 97, ../sass/_mobile.scss */
@@ -1093,13 +1088,13 @@ header.mobile_nav a.belfastruby:active {
     width: 100%;
     text-align: center;
     padding: 2.1em 0;
-    border-top: solid 1px #efefef;
-    border-left: solid 1px #efefef;
-    border-right: solid 1px #efefef;
+    border-top: solid 1px #EFEFEF;
+    border-left: solid 1px #EFEFEF;
+    border-right: solid 1px #EFEFEF;
   }
   /* line 58, ../sass/_mediaqueries.scss */
   .sponsor-details ul li:last-child {
-    border-bottom: solid 1px #efefef;
+    border-bottom: solid 1px #EFEFEF;
     padding-bottom: 2.1em;
   }
   /* line 62, ../sass/_mediaqueries.scss */
@@ -1194,7 +1189,7 @@ header.mobile_nav a.belfastruby:active {
   }
   /* line 142, ../sass/_mediaqueries.scss */
   .sponsor-details ul li:last-child {
-    border-bottom: solid 1px #efefef;
+    border-bottom: solid 1px #EFEFEF;
     padding-bottom: 1.6em;
   }
   /* line 146, ../sass/_mediaqueries.scss */

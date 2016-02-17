@@ -53,13 +53,6 @@ Please refer to Jekyll's documentation for help with setting it up http://jekyll
 
 ### Compass
 
-To use sass, Compass is being used. Edit scss within sass folder, do not edit the css files directly. To install and watch scss files for changes:
+To use sass, Compass is being used. Edit scss within sass folder, do not edit the css files directly. To watch scss files for changes:
 
-    gem install compass
-    compass install compass
-    compass watch
-
-
-
-
-
+    bundle exec compass watch

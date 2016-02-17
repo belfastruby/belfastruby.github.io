@@ -1,0 +1,34 @@
+.sponsor-details {
+  padding: 25px 0 65px 0;
+
+  &__list {
+    padding: 40px 0;
+
+    &--1 li {
+      width: 100%;
+    }
+
+    &--2 li {
+      width: 49%;
+    }
+
+    &--3 li {
+      width: 33%;
+      min-width: 230px;
+    }
+
+    &--4 li {
+      width: 25%;
+    }
+
+    &__sponsor {
+      list-style: none;
+      display: inline-block;
+      text-align: center;
+
+      img {
+        max-width: 240px;
+      }
+    }
+  }
+}
