@@ -10,7 +10,7 @@ register_link: "http://www.meetup.com/BelfastRuby/events/229455224/"
 
 sponsors: [{name: "Shopkeep", image: "/assets/images/shopkeeppos-logo.png", link: "http://shopkeep.com"}, {name: "GitLab", image: "/assets/images/gitlab-logo.svg", link: "https://about.gitlab.com/"}, {name: "Four Star Pizza", image: "/assets/images/fourstarpizza-logo.png", link: "http://www.fourstarpizza.co.uk/"}]
 
-intro: "It's the new year, and BelfastRuby is back better than ever! The March 2016 meetup has three great beginner-friendly talks lined up. Be sure to not miss out!"
+intro: "It's the new year, and BelfastRuby is back better than ever! The March 2016 meetup has two great beginner-friendly talks lined up. Be sure to not miss out!"
 
 ---
 
