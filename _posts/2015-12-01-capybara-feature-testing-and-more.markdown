@@ -1,6 +1,6 @@
 ---
 layout: post
-past: false
+past: true
 number: "BR-20"
 title: "Feature Testing, Rails Architectures &amp; more"
 when: Tuesday 1st December, 6.30pm
