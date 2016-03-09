@@ -14,7 +14,9 @@ intro: "It's the new year, and BelfastRuby is back better than ever! The March 2
 
 ---
 
-Our first talker Heather McNamee, from [GitLab](https://about.gitlab.com/) will be showing us how to effectively use Git Version Control Workflow within your projects. Specifically delving into how you can use GitLab to create branches, changes, and merge pull requests - and what is happening behind the scenes within Git to make this all happen.
+James Burns will be delivering a talk on mobile testing with Ruby and Appium. Appium is an open source test automation framework for use with native, hybrid and mobile web apps. It drives iOS and Android apps using the WebDriver protocol.
+
+Our second talker Heather McNamee, from [GitLab](https://about.gitlab.com/) will be showing us how to effectively use Git Version Control Workflow within your projects. Specifically delving into how you can use GitLab to create branches, changes, and merge pull requests - and what is happening behind the scenes within Git to make this all happen.
 
 Our final talker, David Kennedy of [Shopkeep](http://www.shopkeep.com/) will present his beginner-friendly talk, "Ruby makes me happy". Where he will discuss the reasons why he loves Ruby, and what makes Ruby awesome!
 
