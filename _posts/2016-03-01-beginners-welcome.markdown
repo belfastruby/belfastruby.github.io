@@ -1,6 +1,6 @@
 ---
 layout: post
-past: false
+past: true
 number: "BR-21"
 title: "Beginners Welcome"
 when: Tuesday 15th March, 6.30pm

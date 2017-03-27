@@ -1,0 +1,38 @@
+---
+layout: post
+past: false
+number: "BR-22"
+title: "Reboot"
+when: Tuesday 28th March, 6.30pm
+location: Puppet Labs, 4th Floor, 40 Linenhall Street, Belfast, BT2 8BA
+directions: https://www.google.com/maps?f=q&hl=en&q=4th+Floor,+40+Linenhall+Street,+BT2+8BA,+Belfast,+gb
+register_link: "https://www.meetup.com/BelfastRuby/events/238111264/"
+
+sponsors: [{name: "Shopkeep", image: "/assets/images/shopkeeppos-logo.png", link: "http://shopkeep.com"}, {name: "Dawson & Andrews", image: "/assets/images/da-logo.png", link: "https://dawsonandrews.com/"}, {name: "Puppet Labs", image: "/assets/images/puppet-labs.png", link: "http://www.puppet.com/"}]
+
+intro: "In 2017 we want to reboot Belfast Ruby and have regular bi-monthly meetups again. This will take a group effort so please come along if you are interested."
+
+---
+
+We have lined up a meetup (venue to be decided) on Tuesday the 28th of March 2017. We have three great talks lined up.
+
+**Pete Hawkins**
+
+[Pete](https://twitter.com/peteyhawkins) of [Dawson & Andrews](https://dawsonandrews.com/) will give a talk on rails 5 + webpack and how to enrich your project with a suite of rich client side features.
+
+**David Schmitt**
+
+[David](https://puppet.com/blog/author/david-schmitt) of Puppet Labs will give an introductory talk on RSpec the behaviour driven development framework.
+
+**Stephen McCullough**
+
+[Stephen](http://twitter.com/swmcc) of [ShopKeep](http://www.shopkeep.com/) will build a bot for Slack. The time allotted is 30mins. The aim for this talk is:
+
+• test driven
+
+• have a bot talking in the belfastruby slack room
+
+• pushed onto github so attendees can offer PRs in the form of bugfixes or enhancements later
+
+Hope to see you there,
+Stephen
