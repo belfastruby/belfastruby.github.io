@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'rspec'
 require 'selenium-webdriver'
 require 'capybara/rspec'
@@ -14,7 +16,7 @@ RSpec.configure do |config|
   # Configure Capybara to use Selenium.
   Capybara.register_driver :selenium do |app|
     # Configure selenium to use Chrome.
-    Capybara::Selenium::Driver.new(app, :browser => :chrome)
+    Capybara::Selenium::Driver.new(app, :browser, :chrome)
   end
 
   # Configure Capybara to load the website through rack-jekyll.
