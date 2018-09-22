@@ -71,3 +71,9 @@ To use sass, Compass is being used. Edit scss within sass folder, do not edit
 the css files directly. To watch scss files for changes:
 
     bundle exec compass watch
+
+### Tests
+
+Tests are written with RSpec & Capybara, they run in headless chrome. To run all the tests:
+
+    bundle exec rspec
