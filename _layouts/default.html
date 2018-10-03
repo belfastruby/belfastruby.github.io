@@ -16,25 +16,10 @@
 
       <!-- Custom CSS -->
       <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
-
       <!-- JQuery -->
       <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-      <script type="text/javascript" src="//use.typekit.net/tmx7bvo.js"></script>
-      <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
       <script src="{{ site.baseurl }}/assets/js/sidr.js"></script>
-      <script>
-      $(document).ready(function() {
-        $('#burger').sidr({
-          side: 'right',
-          displace: true
-        });
-        $('#burger').on('click', function() {
-          action = ($(this).hasClass('open-burger')) ? 'close' : 'open';
-          $.sidr(action, 'sidr')
-          $(this).toggleClass('open-burger');
-        });
-      });
-      </script>
+      <script src="{{ site.baseurl }}/assets/js/hamburger_nav.js"></script>
       <!--[if lt IE 9]>
       <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
       <script src="assets/js/html5shiv.js"></script>
