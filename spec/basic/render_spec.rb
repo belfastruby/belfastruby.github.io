@@ -2,7 +2,7 @@
 
 require 'spec_helper'
 
-describe 'The Page renders', type: :feature, js: true do
+describe 'The home page renders as expected', type: :feature, js: true do
   before :each do
     visit '/'
   end
