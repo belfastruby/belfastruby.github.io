@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    volumes:
+      - .:/app
+    environment:
+      - APP_URL=http://web:3333
+      - SELENIUM_URL=http://selenium:4444/wd/hub
+    depends_on:
+      - selenium
+
+  selenium:
+    image: selenium/standalone-chrome:3.14.0
+    logging:
+      driver: none
