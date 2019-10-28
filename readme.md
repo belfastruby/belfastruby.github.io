@@ -1,24 +1,17 @@
 # Belfast Ruby
 
-Belfast Ruby is community of aspiring and experienced developers in Belfast,
-Northern Ireland passionate about Ruby and Rails.  We hold monthly meetups
-which are open to everyone.
+Belfast Ruby is a community of aspiring and experienced developers in Belfast, Northern Ireland who are passionate about Ruby and Rails.  We hold monthly meetups which are open to everyone.
 
 Visit the website - [belfastruby.org](http://www.belfastruby.org)
 
-##Open Sourced - Get Involved
+## Open Sourced - Get Involved
 
 This website is open sourced so that the community can get involved in its
-development and contribute whatever they can. Please refer to the GitHub Issues
-to view a list of bugs or suggested improvements. Feel free to work on these,
-then when you've committed the changes send a pull request or attach it to the
-related issue so we can merge it in.
+development and contribute whatever they can. Please refer to the GitHub Issues to view a list of bugs or suggested improvements. Feel free to work on these,then when you've committed the changes, do send a pull request or attach it to the related issue so that we can merge it in.
 
 ### Ideas for Features or Improvements
 
-We're open to ideas about improving the Belfast Ruby website. Here's a couple
-ideas we've come up with so far. Add your own or work on bringing these ideas
-to life.
+We're open to ideas about improving the Belfast Ruby website. Here's a couple of ideas we've come up with so far. Add your own work on bringing these ideas to life.
 
 - Update the resources page with Ruby related links that you find useful
 - Have a section for links to each speaker's slides/companion notes
@@ -38,8 +31,8 @@ into any bugs.
   5. When you’re ready to push up your changes, commit your code and attach a pull request to the related GitHub Issue. Later we’ll review your changes before merging in your code.
 
 If you’re new to Git and GitHub, this might sound a bit confusing, but it’s
-easy once you know how. Refer to [this
-guide](http://guides.github.com/overviews/flow/) for more guidance on how to
+easy once you know how.
+Refer to [this guide](http://guides.github.com/overviews/flow/) for more guidance on how to
 best work on a GitHub project.
 
 ## Dependencies
