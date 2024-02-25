@@ -42,6 +42,11 @@ GEM
     ffi (1.16.3)
     forwardable-extended (2.6.0)
     google-protobuf (3.25.3)
+    google-protobuf (3.25.3-aarch64-linux)
+    google-protobuf (3.25.3-arm64-darwin)
+    google-protobuf (3.25.3-x86-linux)
+    google-protobuf (3.25.3-x86_64-darwin)
+    google-protobuf (3.25.3-x86_64-linux)
     http_parser.rb (0.8.0)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
@@ -78,11 +83,19 @@ GEM
     mercenary (0.4.0)
     method_source (1.0.0)
     mini_mime (1.1.5)
-    mini_portile2 (2.8.5)
     multi_json (1.15.0)
     nio4r (2.7.0)
-    nokogiri (1.16.2)
-      mini_portile2 (~> 2.8.2)
+    nokogiri (1.16.2-aarch64-linux)
+      racc (~> 1.4)
+    nokogiri (1.16.2-arm-linux)
+      racc (~> 1.4)
+    nokogiri (1.16.2-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.16.2-x86-linux)
+      racc (~> 1.4)
+    nokogiri (1.16.2-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.16.2-x86_64-linux)
       racc (~> 1.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
@@ -123,9 +136,13 @@ GEM
     rubyzip (2.3.2)
     safe_yaml (1.0.5)
     sass (3.4.25)
-    sass-embedded (1.71.1)
-      google-protobuf (~> 3.25)
+    sass-embedded (1.69.5)
+      google-protobuf (~> 3.23)
       rake (>= 13.0.0)
+    sass-embedded (1.69.5-arm64-darwin)
+      google-protobuf (~> 3.23)
+    sass-embedded (1.69.5-x86_64-darwin)
+      google-protobuf (~> 3.23)
     selenium-webdriver (4.18.1)
       base64 (~> 0.2)
       rexml (~> 3.2, >= 3.2.5)
@@ -140,7 +157,16 @@ GEM
       nokogiri (~> 1.8)
 
 PLATFORMS
-  ruby
+  aarch64-linux
+  aarch64-linux-musl
+  arm-linux
+  arm-linux-musleabihf
+  arm64-darwin
+  x86-linux
+  x86-linux-musl
+  x86_64-darwin
+  x86_64-linux
+  x86_64-linux-musl
 
 DEPENDENCIES
   capybara
@@ -152,6 +178,7 @@ DEPENDENCIES
   rack-jekyll
   rouge
   rspec
+  sass-embedded (< 1.70)
   selenium-webdriver
 
 BUNDLED WITH

@@ -1,0 +1,32 @@
+name: Ruby and Jekyll CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Read Ruby version
+        run: echo "RUBY_VERSION=$(cat .ruby-version)" >> $GITHUB_ENV
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: ${{ env.RUBY_VERSION }}
+
+      - name: Install dependencies
+        run: |
+          bundle install --jobs 4 --retry 3
+
+      - name: Build Jekyll site
+        run: |
+          bundle exec jekyll build
+
+      - name: Run RSpec tests
+        run: |
+          bundle exec rspec

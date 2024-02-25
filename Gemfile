@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'jekyll'
+gem 'sass-embedded', '< 1.70'
 gem 'compass'
 gem 'rouge'
 
