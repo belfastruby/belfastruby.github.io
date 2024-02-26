@@ -7,15 +7,15 @@ Visit the website - [belfastruby.org](http://www.belfastruby.org)
 ## Open Sourced - Get Involved
 
 This website is open sourced so that the community can get involved in its
-development and contribute whatever they can. Please refer to the GitHub Issues to view a list of bugs or suggested improvements. Feel free to work on these,then when you've committed the changes, do send a pull request or attach it to the related issue so that we can merge it in.
+development and contribute whatever they can. Please refer to the [GitHub Issues](https://github.com/belfastruby/belfastruby.github.io/issues) to view a list of bugs or suggested improvements. Feel free to work on these,then when you've committed the changes, do send a pull request or attach it to the related issue so that we can merge it in.
 
 ### Ideas for Features or Improvements
 
 We're open to ideas about improving the Belfast Ruby website. Here's a couple of ideas we've come up with so far. Add your own work on bringing these ideas to life.
 
-- Update the resources page with Ruby related links that you find useful
-- Have a section for links to each speaker's slides/companion notes
-- Pull in related Instagram or Flickr images for each meetup
+- [Enhance Resources Page with More Ruby Links](https://github.com/belfastruby/belfastruby.github.io/issues/52)
+- [Add Section for Speaker Slides/Notes to Event Page](https://github.com/belfastruby/belfastruby.github.io/issues/53)
+- [Incorporate Related Images for Each Meetup](https://github.com/belfastruby/belfastruby.github.io/issues/54)
 
 Even if you aren't interested in contributing code, we'd love if you could
 suggest any ideas for improvements or let us know via GitHub Issue if you run
@@ -43,17 +43,18 @@ Here's what you need to run the website locally.
 
 This will install all gems required to run the app.
 
+    ```bash
     gem install bundler
     cd belfastruby-website
     bundle install
+    ```
 
 ### Run site locally
-
 
 This site is built on Jekyll. To run the site in your browser locally and watch
 for any changes made use:
 
-    jekyll s
+    `jekyll s`
 
 Please refer to Jekyll's documentation for help with setting it up
 http://jekyllrb.com/docs/home/
@@ -63,10 +64,10 @@ http://jekyllrb.com/docs/home/
 To use sass, Compass is being used. Edit scss within sass folder, do not edit
 the css files directly. To watch scss files for changes:
 
-    bundle exec compass watch
+    `bundle exec compass watch`
 
 ### Tests
 
 Tests are written with RSpec & Capybara, they run in headless chrome. To run all the tests:
 
-    bundle exec rspec
+    `bundle exec rspec`
