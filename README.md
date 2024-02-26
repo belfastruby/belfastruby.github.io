@@ -70,10 +70,3 @@ the css files directly. To watch scss files for changes:
 Tests are written with RSpec & Capybara, they run in headless chrome. To run all the tests:
 
     bundle exec rspec
-
-### Docker tests
-
-Travis currently makes use of Docker to run your tests. To run this setup locally:
-
-    docker-compose build
-    docker-compose run --rm --name web web bundle exec rspec
